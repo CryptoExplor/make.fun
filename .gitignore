@@ -1,0 +1,6 @@
+# Private make.fun credentials, claim info and keypairs
+claim-code.txt
+claim-info.json
+claim-instructions.txt
+*keypair*.json
+transcripts.tar.gz
