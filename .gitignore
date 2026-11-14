@@ -2,5 +2,6 @@
 claim-code.txt
 claim-info.json
 claim-instructions.txt
+CLAIM_INSTRUCTIONS.md
 *keypair*.json
 transcripts.tar.gz
