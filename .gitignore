@@ -9,4 +9,4 @@ transcripts.tar.gz
 # Local test artifacts & kits
 *-kit/
 kit-*.tar.gz
-
+.env
