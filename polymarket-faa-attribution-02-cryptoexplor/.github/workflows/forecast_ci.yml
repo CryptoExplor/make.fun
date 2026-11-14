@@ -1,0 +1,22 @@
+name: Validate 240m Polymarket FAA Forecast Submission
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+
+jobs:
+  validate-forecast:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Generate 240-minute ahead forecast
+        run: python -m src.model.forecaster --horizon 240 --output forecasts/forecast_240m_latest.csv
+      - name: Validate simplex & 240-minute schema
+        run: python -m src.evaluate.backtest --input forecasts/forecast_240m_latest.csv

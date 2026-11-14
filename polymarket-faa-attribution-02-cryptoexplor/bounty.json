@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "platform": "make.fun",
+  "bounty_slug": "polymarket-faa-attribution-02",
+  "bounty_title": "Forecast Polymarket's FAA outage attribution prices minute by minute, 4 hours ahead",
+  "bounty_url": "https://make.fun/bounty/polymarket-faa-attribution-02",
+  "participant": {
+    "handle": "@cryptoexplor",
+    "username": "cryptoexplor"
+  },
+  "forecast_spec": {
+    "horizon_minutes": 240,
+    "resolution_minutes": 1,
+    "num_steps": 240,
+    "enforce_simplex_sum_to_one": true,
+    "model_family": "ensemble_blend",
+    "monte_carlo_paths": 200,
+    "random_seed": 202602
+  },
+  "contracts": [
+    {
+      "outcome_id": "notam_software",
+      "ticker": "FAA-SW",
+      "name": "Legacy NOTAM / Database Sync Glitch",
+      "polymarket_token_id": "0x71a4c9f8b2d03e159a82b47c11e908f3d2a49c01",
+      "snapshot_mid_price": 0.445,
+      "long_term_prior": 0.48
+    },
+    {
+      "outcome_id": "contractor_config",
+      "ticker": "FAA-CFG",
+      "name": "Contractor / Engineer File Configuration Error",
+      "polymarket_token_id": "0x94d2e8a7c11f408b3e291d56a72c04e18b30f212",
+      "snapshot_mid_price": 0.255,
+      "long_term_prior": 0.28
+    },
+    {
+      "outcome_id": "telecom_hardware",
+      "ticker": "FAA-HW",
+      "name": "Telecom Carrier / Fiber Hardware Failure",
+      "polymarket_token_id": "0x3b81f502e6c94d12a083f71b25e94c82d1a07e44",
+      "snapshot_mid_price": 0.145,
+      "long_term_prior": 0.13
+    },
+    {
+      "outcome_id": "cyber_intrusion",
+      "ticker": "FAA-CYB",
+      "name": "Malicious Cyberattack / External Intrusion",
+      "polymarket_token_id": "0xf209c41e8a73b605d194e82f3c107a94b6e25d88",
+      "snapshot_mid_price": 0.095,
+      "long_term_prior": 0.05
+    },
+    {
+      "outcome_id": "unattributed_other",
+      "ticker": "FAA-OTH",
+      "name": "Unattributed / Multi-Factor Pending Deadline",
+      "polymarket_token_id": "0x58e3a10d9c47b216f085a39e14d72c60b9f13a99",
+      "snapshot_mid_price": 0.06,
+      "long_term_prior": 0.06
+    }
+  ],
+  "artifacts": {
+    "csv_forecast": "forecasts/forecast_240m_latest.csv",
+    "json_payload": "forecasts/submission_payload.json",
+    "entrypoint": "src/model/forecaster.py"
+  }
+}

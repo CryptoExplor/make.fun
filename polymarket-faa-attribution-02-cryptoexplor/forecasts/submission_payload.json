@@ -1,0 +1,5144 @@
+{
+  "bounty": "polymarket-faa-attribution-02",
+  "account": "@cryptoexplor",
+  "generated_at_utc": "2026-03-29T14:00:00.000Z",
+  "horizon_minutes": 240,
+  "interval_minutes": 1,
+  "model_config": {
+    "family": "ensemble_blend",
+    "monte_carlo_paths": 200,
+    "volatility_multiplier": 1,
+    "mean_reversion_strength": 1,
+    "order_flow_half_life_min": 22,
+    "hawkes_jump_intensity": 0.35,
+    "random_seed": 202602
+  },
+  "summary_checkpoints": [
+    {
+      "minute_ahead": 1,
+      "timestamp_utc": "2026-03-29T14:01:00.000Z",
+      "probabilities": {
+        "notam_software": 0.44712133351674993,
+        "contractor_config": 0.2562403596213191,
+        "telecom_hardware": 0.1443147722312427,
+        "cyber_intrusion": 0.09243303030660707,
+        "unattributed_other": 0.05989050432408134
+      },
+      "entropy_bits": 1.9864
+    },
+    {
+      "minute_ahead": 15,
+      "timestamp_utc": "2026-03-29T14:15:00.000Z",
+      "probabilities": {
+        "notam_software": 0.4689211176798085,
+        "contractor_config": 0.26744550392263133,
+        "telecom_hardware": 0.1364854160579983,
+        "cyber_intrusion": 0.06844539248078843,
+        "unattributed_other": 0.05870256985877359
+      },
+      "entropy_bits": 1.9183
+    },
+    {
+      "minute_ahead": 30,
+      "timestamp_utc": "2026-03-29T14:30:00.000Z",
+      "probabilities": {
+        "notam_software": 0.4800740682875147,
+        "contractor_config": 0.2719617732569463,
+        "telecom_hardware": 0.13176153435579108,
+        "cyber_intrusion": 0.058105466913849636,
+        "unattributed_other": 0.05809715718589831
+      },
+      "entropy_bits": 1.8814
+    },
+    {
+      "minute_ahead": 60,
+      "timestamp_utc": "2026-03-29T15:00:00.000Z",
+      "probabilities": {
+        "notam_software": 0.5083909855872278,
+        "contractor_config": 0.2785440235399856,
+        "telecom_hardware": 0.1175239946605372,
+        "cyber_intrusion": 0.042224981855415525,
+        "unattributed_other": 0.053316014356833745
+      },
+      "entropy_bits": 1.7911
+    },
+    {
+      "minute_ahead": 120,
+      "timestamp_utc": "2026-03-29T16:00:00.000Z",
+      "probabilities": {
+        "notam_software": 0.5175781417286598,
+        "contractor_config": 0.2981903272302932,
+        "telecom_hardware": 0.1100160090699302,
+        "cyber_intrusion": 0.025448075830980587,
+        "unattributed_other": 0.04876744614013636
+      },
+      "entropy_bits": 1.7099
+    },
+    {
+      "minute_ahead": 180,
+      "timestamp_utc": "2026-03-29T17:00:00.000Z",
+      "probabilities": {
+        "notam_software": 0.5263718165959604,
+        "contractor_config": 0.3262992304024781,
+        "telecom_hardware": 0.0886316384925774,
+        "cyber_intrusion": 0.018661992840487307,
+        "unattributed_other": 0.04003532166849681
+      },
+      "entropy_bits": 1.6175
+    },
+    {
+      "minute_ahead": 240,
+      "timestamp_utc": "2026-03-29T18:00:00.000Z",
+      "probabilities": {
+        "notam_software": 0.5301701514860092,
+        "contractor_config": 0.34566598266593507,
+        "telecom_hardware": 0.07450175011829976,
+        "cyber_intrusion": 0.015736511699425103,
+        "unattributed_other": 0.03392560403033062
+      },
+      "entropy_bits": 1.5541
+    }
+  ],
+  "minute_by_minute_forecast": [
+    {
+      "t_plus_min": 1,
+      "timestamp_utc": "2026-03-29T14:01:00.000Z",
+      "prices": {
+        "notam_software": 0.447121,
+        "contractor_config": 0.25624,
+        "telecom_hardware": 0.144315,
+        "cyber_intrusion": 0.092433,
+        "unattributed_other": 0.059891
+      },
+      "ci_80": {
+        "notam_software": [
+          0.44038,
+          0.45463
+        ],
+        "contractor_config": [
+          0.25153,
+          0.26117
+        ]
+      }
+    },
+    {
+      "t_plus_min": 2,
+      "timestamp_utc": "2026-03-29T14:02:00.000Z",
+      "prices": {
+        "notam_software": 0.449658,
+        "contractor_config": 0.257332,
+        "telecom_hardware": 0.143458,
+        "cyber_intrusion": 0.089921,
+        "unattributed_other": 0.059631
+      },
+      "ci_80": {
+        "notam_software": [
+          0.44101,
+          0.45875
+        ],
+        "contractor_config": [
+          0.24998,
+          0.26397
+        ]
+      }
+    },
+    {
+      "t_plus_min": 3,
+      "timestamp_utc": "2026-03-29T14:03:00.000Z",
+      "prices": {
+        "notam_software": 0.451323,
+        "contractor_config": 0.258415,
+        "telecom_hardware": 0.142958,
+        "cyber_intrusion": 0.087697,
+        "unattributed_other": 0.059608
+      },
+      "ci_80": {
+        "notam_software": [
+          0.44098,
+          0.4621
+        ],
+        "contractor_config": [
+          0.24879,
+          0.26722
+        ]
+      }
+    },
+    {
+      "t_plus_min": 4,
+      "timestamp_utc": "2026-03-29T14:04:00.000Z",
+      "prices": {
+        "notam_software": 0.45364,
+        "contractor_config": 0.259329,
+        "telecom_hardware": 0.142178,
+        "cyber_intrusion": 0.085416,
+        "unattributed_other": 0.059437
+      },
+      "ci_80": {
+        "notam_software": [
+          0.44032,
+          0.46651
+        ],
+        "contractor_config": [
+          0.24869,
+          0.26931
+        ]
+      }
+    },
+    {
+      "t_plus_min": 5,
+      "timestamp_utc": "2026-03-29T14:05:00.000Z",
+      "prices": {
+        "notam_software": 0.456214,
+        "contractor_config": 0.259606,
+        "telecom_hardware": 0.14159,
+        "cyber_intrusion": 0.083348,
+        "unattributed_other": 0.059242
+      },
+      "ci_80": {
+        "notam_software": [
+          0.44219,
+          0.47128
+        ],
+        "contractor_config": [
+          0.24761,
+          0.27125
+        ]
+      }
+    },
+    {
+      "t_plus_min": 6,
+      "timestamp_utc": "2026-03-29T14:06:00.000Z",
+      "prices": {
+        "notam_software": 0.457471,
+        "contractor_config": 0.260427,
+        "telecom_hardware": 0.141133,
+        "cyber_intrusion": 0.081722,
+        "unattributed_other": 0.059248
+      },
+      "ci_80": {
+        "notam_software": [
+          0.44198,
+          0.4749
+        ],
+        "contractor_config": [
+          0.2487,
+          0.27065
+        ]
+      }
+    },
+    {
+      "t_plus_min": 7,
+      "timestamp_utc": "2026-03-29T14:07:00.000Z",
+      "prices": {
+        "notam_software": 0.459594,
+        "contractor_config": 0.26109,
+        "telecom_hardware": 0.140535,
+        "cyber_intrusion": 0.079671,
+        "unattributed_other": 0.059109
+      },
+      "ci_80": {
+        "notam_software": [
+          0.44341,
+          0.47818
+        ],
+        "contractor_config": [
+          0.24799,
+          0.27443
+        ]
+      }
+    },
+    {
+      "t_plus_min": 8,
+      "timestamp_utc": "2026-03-29T14:08:00.000Z",
+      "prices": {
+        "notam_software": 0.460512,
+        "contractor_config": 0.262392,
+        "telecom_hardware": 0.139964,
+        "cyber_intrusion": 0.078135,
+        "unattributed_other": 0.058998
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4426,
+          0.47892
+        ],
+        "contractor_config": [
+          0.24874,
+          0.2754
+        ]
+      }
+    },
+    {
+      "t_plus_min": 9,
+      "timestamp_utc": "2026-03-29T14:09:00.000Z",
+      "prices": {
+        "notam_software": 0.461903,
+        "contractor_config": 0.263362,
+        "telecom_hardware": 0.139399,
+        "cyber_intrusion": 0.076369,
+        "unattributed_other": 0.058967
+      },
+      "ci_80": {
+        "notam_software": [
+          0.44299,
+          0.48024
+        ],
+        "contractor_config": [
+          0.24931,
+          0.27651
+        ]
+      }
+    },
+    {
+      "t_plus_min": 10,
+      "timestamp_utc": "2026-03-29T14:10:00.000Z",
+      "prices": {
+        "notam_software": 0.463185,
+        "contractor_config": 0.26425,
+        "telecom_hardware": 0.138694,
+        "cyber_intrusion": 0.075012,
+        "unattributed_other": 0.058859
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4423,
+          0.48389
+        ],
+        "contractor_config": [
+          0.24848,
+          0.27946
+        ]
+      }
+    },
+    {
+      "t_plus_min": 11,
+      "timestamp_utc": "2026-03-29T14:11:00.000Z",
+      "prices": {
+        "notam_software": 0.464004,
+        "contractor_config": 0.265193,
+        "telecom_hardware": 0.138511,
+        "cyber_intrusion": 0.073566,
+        "unattributed_other": 0.058726
+      },
+      "ci_80": {
+        "notam_software": [
+          0.44329,
+          0.48452
+        ],
+        "contractor_config": [
+          0.24832,
+          0.2825
+        ]
+      }
+    },
+    {
+      "t_plus_min": 12,
+      "timestamp_utc": "2026-03-29T14:12:00.000Z",
+      "prices": {
+        "notam_software": 0.464882,
+        "contractor_config": 0.26645,
+        "telecom_hardware": 0.138069,
+        "cyber_intrusion": 0.072003,
+        "unattributed_other": 0.058596
+      },
+      "ci_80": {
+        "notam_software": [
+          0.44293,
+          0.48692
+        ],
+        "contractor_config": [
+          0.25013,
+          0.28423
+        ]
+      }
+    },
+    {
+      "t_plus_min": 13,
+      "timestamp_utc": "2026-03-29T14:13:00.000Z",
+      "prices": {
+        "notam_software": 0.466034,
+        "contractor_config": 0.266896,
+        "telecom_hardware": 0.137627,
+        "cyber_intrusion": 0.07077,
+        "unattributed_other": 0.058673
+      },
+      "ci_80": {
+        "notam_software": [
+          0.44386,
+          0.49089
+        ],
+        "contractor_config": [
+          0.24791,
+          0.28572
+        ]
+      }
+    },
+    {
+      "t_plus_min": 14,
+      "timestamp_utc": "2026-03-29T14:14:00.000Z",
+      "prices": {
+        "notam_software": 0.467404,
+        "contractor_config": 0.267185,
+        "telecom_hardware": 0.137068,
+        "cyber_intrusion": 0.069621,
+        "unattributed_other": 0.058723
+      },
+      "ci_80": {
+        "notam_software": [
+          0.44556,
+          0.48917
+        ],
+        "contractor_config": [
+          0.24999,
+          0.28469
+        ]
+      }
+    },
+    {
+      "t_plus_min": 15,
+      "timestamp_utc": "2026-03-29T14:15:00.000Z",
+      "prices": {
+        "notam_software": 0.468921,
+        "contractor_config": 0.267446,
+        "telecom_hardware": 0.136485,
+        "cyber_intrusion": 0.068445,
+        "unattributed_other": 0.058703
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4479,
+          0.48876
+        ],
+        "contractor_config": [
+          0.24963,
+          0.28552
+        ]
+      }
+    },
+    {
+      "t_plus_min": 16,
+      "timestamp_utc": "2026-03-29T14:16:00.000Z",
+      "prices": {
+        "notam_software": 0.470096,
+        "contractor_config": 0.267814,
+        "telecom_hardware": 0.136022,
+        "cyber_intrusion": 0.067451,
+        "unattributed_other": 0.058617
+      },
+      "ci_80": {
+        "notam_software": [
+          0.44715,
+          0.49173
+        ],
+        "contractor_config": [
+          0.24831,
+          0.28716
+        ]
+      }
+    },
+    {
+      "t_plus_min": 17,
+      "timestamp_utc": "2026-03-29T14:17:00.000Z",
+      "prices": {
+        "notam_software": 0.47053,
+        "contractor_config": 0.268784,
+        "telecom_hardware": 0.135511,
+        "cyber_intrusion": 0.066635,
+        "unattributed_other": 0.058541
+      },
+      "ci_80": {
+        "notam_software": [
+          0.44946,
+          0.49253
+        ],
+        "contractor_config": [
+          0.25021,
+          0.28923
+        ]
+      }
+    },
+    {
+      "t_plus_min": 18,
+      "timestamp_utc": "2026-03-29T14:18:00.000Z",
+      "prices": {
+        "notam_software": 0.471013,
+        "contractor_config": 0.269681,
+        "telecom_hardware": 0.135085,
+        "cyber_intrusion": 0.065723,
+        "unattributed_other": 0.058497
+      },
+      "ci_80": {
+        "notam_software": [
+          0.44905,
+          0.49212
+        ],
+        "contractor_config": [
+          0.2523,
+          0.28965
+        ]
+      }
+    },
+    {
+      "t_plus_min": 19,
+      "timestamp_utc": "2026-03-29T14:19:00.000Z",
+      "prices": {
+        "notam_software": 0.471691,
+        "contractor_config": 0.270079,
+        "telecom_hardware": 0.134957,
+        "cyber_intrusion": 0.064836,
+        "unattributed_other": 0.058437
+      },
+      "ci_80": {
+        "notam_software": [
+          0.44736,
+          0.49462
+        ],
+        "contractor_config": [
+          0.25113,
+          0.29119
+        ]
+      }
+    },
+    {
+      "t_plus_min": 20,
+      "timestamp_utc": "2026-03-29T14:20:00.000Z",
+      "prices": {
+        "notam_software": 0.47239,
+        "contractor_config": 0.270358,
+        "telecom_hardware": 0.134766,
+        "cyber_intrusion": 0.064043,
+        "unattributed_other": 0.058443
+      },
+      "ci_80": {
+        "notam_software": [
+          0.44727,
+          0.49672
+        ],
+        "contractor_config": [
+          0.25044,
+          0.29254
+        ]
+      }
+    },
+    {
+      "t_plus_min": 21,
+      "timestamp_utc": "2026-03-29T14:21:00.000Z",
+      "prices": {
+        "notam_software": 0.473351,
+        "contractor_config": 0.270546,
+        "telecom_hardware": 0.134357,
+        "cyber_intrusion": 0.063356,
+        "unattributed_other": 0.058389
+      },
+      "ci_80": {
+        "notam_software": [
+          0.44936,
+          0.50005
+        ],
+        "contractor_config": [
+          0.24744,
+          0.29487
+        ]
+      }
+    },
+    {
+      "t_plus_min": 22,
+      "timestamp_utc": "2026-03-29T14:22:00.000Z",
+      "prices": {
+        "notam_software": 0.473905,
+        "contractor_config": 0.270831,
+        "telecom_hardware": 0.134222,
+        "cyber_intrusion": 0.062683,
+        "unattributed_other": 0.058359
+      },
+      "ci_80": {
+        "notam_software": [
+          0.44963,
+          0.50176
+        ],
+        "contractor_config": [
+          0.2483,
+          0.292
+        ]
+      }
+    },
+    {
+      "t_plus_min": 23,
+      "timestamp_utc": "2026-03-29T14:23:00.000Z",
+      "prices": {
+        "notam_software": 0.47515,
+        "contractor_config": 0.271107,
+        "telecom_hardware": 0.133663,
+        "cyber_intrusion": 0.061927,
+        "unattributed_other": 0.058154
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4492,
+          0.50223
+        ],
+        "contractor_config": [
+          0.24834,
+          0.29281
+        ]
+      }
+    },
+    {
+      "t_plus_min": 24,
+      "timestamp_utc": "2026-03-29T14:24:00.000Z",
+      "prices": {
+        "notam_software": 0.475992,
+        "contractor_config": 0.271538,
+        "telecom_hardware": 0.13321,
+        "cyber_intrusion": 0.06121,
+        "unattributed_other": 0.05805
+      },
+      "ci_80": {
+        "notam_software": [
+          0.45063,
+          0.50274
+        ],
+        "contractor_config": [
+          0.24905,
+          0.29345
+        ]
+      }
+    },
+    {
+      "t_plus_min": 25,
+      "timestamp_utc": "2026-03-29T14:25:00.000Z",
+      "prices": {
+        "notam_software": 0.476753,
+        "contractor_config": 0.271606,
+        "telecom_hardware": 0.132921,
+        "cyber_intrusion": 0.060723,
+        "unattributed_other": 0.057997
+      },
+      "ci_80": {
+        "notam_software": [
+          0.44865,
+          0.50557
+        ],
+        "contractor_config": [
+          0.24984,
+          0.29502
+        ]
+      }
+    },
+    {
+      "t_plus_min": 26,
+      "timestamp_utc": "2026-03-29T14:26:00.000Z",
+      "prices": {
+        "notam_software": 0.477298,
+        "contractor_config": 0.271816,
+        "telecom_hardware": 0.132777,
+        "cyber_intrusion": 0.060201,
+        "unattributed_other": 0.057908
+      },
+      "ci_80": {
+        "notam_software": [
+          0.45077,
+          0.50538
+        ],
+        "contractor_config": [
+          0.24849,
+          0.29463
+        ]
+      }
+    },
+    {
+      "t_plus_min": 27,
+      "timestamp_utc": "2026-03-29T14:27:00.000Z",
+      "prices": {
+        "notam_software": 0.477658,
+        "contractor_config": 0.272379,
+        "telecom_hardware": 0.132418,
+        "cyber_intrusion": 0.05959,
+        "unattributed_other": 0.057955
+      },
+      "ci_80": {
+        "notam_software": [
+          0.44982,
+          0.50311
+        ],
+        "contractor_config": [
+          0.24756,
+          0.29712
+        ]
+      }
+    },
+    {
+      "t_plus_min": 28,
+      "timestamp_utc": "2026-03-29T14:28:00.000Z",
+      "prices": {
+        "notam_software": 0.478598,
+        "contractor_config": 0.27222,
+        "telecom_hardware": 0.132239,
+        "cyber_intrusion": 0.058929,
+        "unattributed_other": 0.058014
+      },
+      "ci_80": {
+        "notam_software": [
+          0.45157,
+          0.50306
+        ],
+        "contractor_config": [
+          0.24556,
+          0.29742
+        ]
+      }
+    },
+    {
+      "t_plus_min": 29,
+      "timestamp_utc": "2026-03-29T14:29:00.000Z",
+      "prices": {
+        "notam_software": 0.479393,
+        "contractor_config": 0.272096,
+        "telecom_hardware": 0.132009,
+        "cyber_intrusion": 0.05846,
+        "unattributed_other": 0.058043
+      },
+      "ci_80": {
+        "notam_software": [
+          0.45384,
+          0.50525
+        ],
+        "contractor_config": [
+          0.24624,
+          0.2957
+        ]
+      }
+    },
+    {
+      "t_plus_min": 30,
+      "timestamp_utc": "2026-03-29T14:30:00.000Z",
+      "prices": {
+        "notam_software": 0.480074,
+        "contractor_config": 0.271962,
+        "telecom_hardware": 0.131762,
+        "cyber_intrusion": 0.058105,
+        "unattributed_other": 0.058097
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4524,
+          0.5071
+        ],
+        "contractor_config": [
+          0.24763,
+          0.29554
+        ]
+      }
+    },
+    {
+      "t_plus_min": 31,
+      "timestamp_utc": "2026-03-29T14:31:00.000Z",
+      "prices": {
+        "notam_software": 0.48156,
+        "contractor_config": 0.271632,
+        "telecom_hardware": 0.131275,
+        "cyber_intrusion": 0.057527,
+        "unattributed_other": 0.058005
+      },
+      "ci_80": {
+        "notam_software": [
+          0.45366,
+          0.5092
+        ],
+        "contractor_config": [
+          0.24663,
+          0.29487
+        ]
+      }
+    },
+    {
+      "t_plus_min": 32,
+      "timestamp_utc": "2026-03-29T14:32:00.000Z",
+      "prices": {
+        "notam_software": 0.482143,
+        "contractor_config": 0.272005,
+        "telecom_hardware": 0.131108,
+        "cyber_intrusion": 0.05693,
+        "unattributed_other": 0.057814
+      },
+      "ci_80": {
+        "notam_software": [
+          0.45567,
+          0.50962
+        ],
+        "contractor_config": [
+          0.248,
+          0.29494
+        ]
+      }
+    },
+    {
+      "t_plus_min": 33,
+      "timestamp_utc": "2026-03-29T14:33:00.000Z",
+      "prices": {
+        "notam_software": 0.482177,
+        "contractor_config": 0.272405,
+        "telecom_hardware": 0.131121,
+        "cyber_intrusion": 0.056549,
+        "unattributed_other": 0.057749
+      },
+      "ci_80": {
+        "notam_software": [
+          0.45504,
+          0.50908
+        ],
+        "contractor_config": [
+          0.24978,
+          0.30101
+        ]
+      }
+    },
+    {
+      "t_plus_min": 34,
+      "timestamp_utc": "2026-03-29T14:34:00.000Z",
+      "prices": {
+        "notam_software": 0.483079,
+        "contractor_config": 0.272413,
+        "telecom_hardware": 0.130777,
+        "cyber_intrusion": 0.05597,
+        "unattributed_other": 0.057761
+      },
+      "ci_80": {
+        "notam_software": [
+          0.45689,
+          0.50958
+        ],
+        "contractor_config": [
+          0.25028,
+          0.29863
+        ]
+      }
+    },
+    {
+      "t_plus_min": 35,
+      "timestamp_utc": "2026-03-29T14:35:00.000Z",
+      "prices": {
+        "notam_software": 0.486541,
+        "contractor_config": 0.273692,
+        "telecom_hardware": 0.128604,
+        "cyber_intrusion": 0.054016,
+        "unattributed_other": 0.057147
+      },
+      "ci_80": {
+        "notam_software": [
+          0.45848,
+          0.5147
+        ],
+        "contractor_config": [
+          0.25197,
+          0.3001
+        ]
+      }
+    },
+    {
+      "t_plus_min": 36,
+      "timestamp_utc": "2026-03-29T14:36:00.000Z",
+      "prices": {
+        "notam_software": 0.489515,
+        "contractor_config": 0.274853,
+        "telecom_hardware": 0.126834,
+        "cyber_intrusion": 0.052319,
+        "unattributed_other": 0.056479
+      },
+      "ci_80": {
+        "notam_software": [
+          0.45814,
+          0.5182
+        ],
+        "contractor_config": [
+          0.25082,
+          0.30352
+        ]
+      }
+    },
+    {
+      "t_plus_min": 37,
+      "timestamp_utc": "2026-03-29T14:37:00.000Z",
+      "prices": {
+        "notam_software": 0.492232,
+        "contractor_config": 0.275369,
+        "telecom_hardware": 0.125539,
+        "cyber_intrusion": 0.050916,
+        "unattributed_other": 0.055945
+      },
+      "ci_80": {
+        "notam_software": [
+          0.46275,
+          0.52085
+        ],
+        "contractor_config": [
+          0.25146,
+          0.30206
+        ]
+      }
+    },
+    {
+      "t_plus_min": 38,
+      "timestamp_utc": "2026-03-29T14:38:00.000Z",
+      "prices": {
+        "notam_software": 0.494428,
+        "contractor_config": 0.275571,
+        "telecom_hardware": 0.124496,
+        "cyber_intrusion": 0.049913,
+        "unattributed_other": 0.055592
+      },
+      "ci_80": {
+        "notam_software": [
+          0.46321,
+          0.52467
+        ],
+        "contractor_config": [
+          0.25356,
+          0.30342
+        ]
+      }
+    },
+    {
+      "t_plus_min": 39,
+      "timestamp_utc": "2026-03-29T14:39:00.000Z",
+      "prices": {
+        "notam_software": 0.496253,
+        "contractor_config": 0.275675,
+        "telecom_hardware": 0.123665,
+        "cyber_intrusion": 0.049111,
+        "unattributed_other": 0.055296
+      },
+      "ci_80": {
+        "notam_software": [
+          0.46427,
+          0.52695
+        ],
+        "contractor_config": [
+          0.25115,
+          0.30274
+        ]
+      }
+    },
+    {
+      "t_plus_min": 40,
+      "timestamp_utc": "2026-03-29T14:40:00.000Z",
+      "prices": {
+        "notam_software": 0.498486,
+        "contractor_config": 0.275603,
+        "telecom_hardware": 0.122724,
+        "cyber_intrusion": 0.048228,
+        "unattributed_other": 0.05496
+      },
+      "ci_80": {
+        "notam_software": [
+          0.46664,
+          0.5285
+        ],
+        "contractor_config": [
+          0.25203,
+          0.3019
+        ]
+      }
+    },
+    {
+      "t_plus_min": 41,
+      "timestamp_utc": "2026-03-29T14:41:00.000Z",
+      "prices": {
+        "notam_software": 0.49954,
+        "contractor_config": 0.275869,
+        "telecom_hardware": 0.122326,
+        "cyber_intrusion": 0.047554,
+        "unattributed_other": 0.054712
+      },
+      "ci_80": {
+        "notam_software": [
+          0.46782,
+          0.52969
+        ],
+        "contractor_config": [
+          0.25151,
+          0.30374
+        ]
+      }
+    },
+    {
+      "t_plus_min": 42,
+      "timestamp_utc": "2026-03-29T14:42:00.000Z",
+      "prices": {
+        "notam_software": 0.500688,
+        "contractor_config": 0.27629,
+        "telecom_hardware": 0.121707,
+        "cyber_intrusion": 0.046931,
+        "unattributed_other": 0.054385
+      },
+      "ci_80": {
+        "notam_software": [
+          0.46849,
+          0.5333
+        ],
+        "contractor_config": [
+          0.25194,
+          0.30354
+        ]
+      }
+    },
+    {
+      "t_plus_min": 43,
+      "timestamp_utc": "2026-03-29T14:43:00.000Z",
+      "prices": {
+        "notam_software": 0.501792,
+        "contractor_config": 0.276466,
+        "telecom_hardware": 0.12106,
+        "cyber_intrusion": 0.046381,
+        "unattributed_other": 0.0543
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47068,
+          0.53152
+        ],
+        "contractor_config": [
+          0.25223,
+          0.30321
+        ]
+      }
+    },
+    {
+      "t_plus_min": 44,
+      "timestamp_utc": "2026-03-29T14:44:00.000Z",
+      "prices": {
+        "notam_software": 0.502576,
+        "contractor_config": 0.276616,
+        "telecom_hardware": 0.120585,
+        "cyber_intrusion": 0.045962,
+        "unattributed_other": 0.054261
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47407,
+          0.53347
+        ],
+        "contractor_config": [
+          0.2532,
+          0.30364
+        ]
+      }
+    },
+    {
+      "t_plus_min": 45,
+      "timestamp_utc": "2026-03-29T14:45:00.000Z",
+      "prices": {
+        "notam_software": 0.503234,
+        "contractor_config": 0.276935,
+        "telecom_hardware": 0.120099,
+        "cyber_intrusion": 0.045589,
+        "unattributed_other": 0.054142
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47235,
+          0.53583
+        ],
+        "contractor_config": [
+          0.25378,
+          0.30301
+        ]
+      }
+    },
+    {
+      "t_plus_min": 46,
+      "timestamp_utc": "2026-03-29T14:46:00.000Z",
+      "prices": {
+        "notam_software": 0.503535,
+        "contractor_config": 0.277431,
+        "telecom_hardware": 0.119625,
+        "cyber_intrusion": 0.04526,
+        "unattributed_other": 0.054151
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47375,
+          0.53706
+        ],
+        "contractor_config": [
+          0.25365,
+          0.30152
+        ]
+      }
+    },
+    {
+      "t_plus_min": 47,
+      "timestamp_utc": "2026-03-29T14:47:00.000Z",
+      "prices": {
+        "notam_software": 0.503975,
+        "contractor_config": 0.277388,
+        "telecom_hardware": 0.119549,
+        "cyber_intrusion": 0.044989,
+        "unattributed_other": 0.0541
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47581,
+          0.53701
+        ],
+        "contractor_config": [
+          0.25434,
+          0.30167
+        ]
+      }
+    },
+    {
+      "t_plus_min": 48,
+      "timestamp_utc": "2026-03-29T14:48:00.000Z",
+      "prices": {
+        "notam_software": 0.504104,
+        "contractor_config": 0.277667,
+        "telecom_hardware": 0.119486,
+        "cyber_intrusion": 0.044713,
+        "unattributed_other": 0.05403
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47648,
+          0.53556
+        ],
+        "contractor_config": [
+          0.25376,
+          0.30183
+        ]
+      }
+    },
+    {
+      "t_plus_min": 49,
+      "timestamp_utc": "2026-03-29T14:49:00.000Z",
+      "prices": {
+        "notam_software": 0.504457,
+        "contractor_config": 0.277987,
+        "telecom_hardware": 0.119113,
+        "cyber_intrusion": 0.044491,
+        "unattributed_other": 0.053953
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47687,
+          0.53343
+        ],
+        "contractor_config": [
+          0.25456,
+          0.30147
+        ]
+      }
+    },
+    {
+      "t_plus_min": 50,
+      "timestamp_utc": "2026-03-29T14:50:00.000Z",
+      "prices": {
+        "notam_software": 0.504501,
+        "contractor_config": 0.278281,
+        "telecom_hardware": 0.119043,
+        "cyber_intrusion": 0.044281,
+        "unattributed_other": 0.053893
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47595,
+          0.53441
+        ],
+        "contractor_config": [
+          0.2554,
+          0.30259
+        ]
+      }
+    },
+    {
+      "t_plus_min": 51,
+      "timestamp_utc": "2026-03-29T14:51:00.000Z",
+      "prices": {
+        "notam_software": 0.505127,
+        "contractor_config": 0.278372,
+        "telecom_hardware": 0.118772,
+        "cyber_intrusion": 0.043891,
+        "unattributed_other": 0.053838
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47423,
+          0.5357
+        ],
+        "contractor_config": [
+          0.25553,
+          0.30211
+        ]
+      }
+    },
+    {
+      "t_plus_min": 52,
+      "timestamp_utc": "2026-03-29T14:52:00.000Z",
+      "prices": {
+        "notam_software": 0.505813,
+        "contractor_config": 0.278247,
+        "telecom_hardware": 0.118519,
+        "cyber_intrusion": 0.043623,
+        "unattributed_other": 0.053798
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47681,
+          0.53596
+        ],
+        "contractor_config": [
+          0.25614,
+          0.30064
+        ]
+      }
+    },
+    {
+      "t_plus_min": 53,
+      "timestamp_utc": "2026-03-29T14:53:00.000Z",
+      "prices": {
+        "notam_software": 0.506206,
+        "contractor_config": 0.278582,
+        "telecom_hardware": 0.118147,
+        "cyber_intrusion": 0.043458,
+        "unattributed_other": 0.053606
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47647,
+          0.53539
+        ],
+        "contractor_config": [
+          0.25444,
+          0.30191
+        ]
+      }
+    },
+    {
+      "t_plus_min": 54,
+      "timestamp_utc": "2026-03-29T14:54:00.000Z",
+      "prices": {
+        "notam_software": 0.507447,
+        "contractor_config": 0.277885,
+        "telecom_hardware": 0.118009,
+        "cyber_intrusion": 0.043147,
+        "unattributed_other": 0.053512
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4778,
+          0.535
+        ],
+        "contractor_config": [
+          0.25742,
+          0.30086
+        ]
+      }
+    },
+    {
+      "t_plus_min": 55,
+      "timestamp_utc": "2026-03-29T14:55:00.000Z",
+      "prices": {
+        "notam_software": 0.508363,
+        "contractor_config": 0.277472,
+        "telecom_hardware": 0.117874,
+        "cyber_intrusion": 0.042803,
+        "unattributed_other": 0.053488
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47569,
+          0.53761
+        ],
+        "contractor_config": [
+          0.25668,
+          0.30166
+        ]
+      }
+    },
+    {
+      "t_plus_min": 56,
+      "timestamp_utc": "2026-03-29T14:56:00.000Z",
+      "prices": {
+        "notam_software": 0.508453,
+        "contractor_config": 0.277609,
+        "telecom_hardware": 0.117849,
+        "cyber_intrusion": 0.042672,
+        "unattributed_other": 0.053417
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47759,
+          0.53846
+        ],
+        "contractor_config": [
+          0.25567,
+          0.30026
+        ]
+      }
+    },
+    {
+      "t_plus_min": 57,
+      "timestamp_utc": "2026-03-29T14:57:00.000Z",
+      "prices": {
+        "notam_software": 0.508876,
+        "contractor_config": 0.277452,
+        "telecom_hardware": 0.117732,
+        "cyber_intrusion": 0.042584,
+        "unattributed_other": 0.053356
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47773,
+          0.54029
+        ],
+        "contractor_config": [
+          0.25401,
+          0.30158
+        ]
+      }
+    },
+    {
+      "t_plus_min": 58,
+      "timestamp_utc": "2026-03-29T14:58:00.000Z",
+      "prices": {
+        "notam_software": 0.508891,
+        "contractor_config": 0.277831,
+        "telecom_hardware": 0.11744,
+        "cyber_intrusion": 0.042489,
+        "unattributed_other": 0.053349
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47786,
+          0.53708
+        ],
+        "contractor_config": [
+          0.25299,
+          0.30162
+        ]
+      }
+    },
+    {
+      "t_plus_min": 59,
+      "timestamp_utc": "2026-03-29T14:59:00.000Z",
+      "prices": {
+        "notam_software": 0.508359,
+        "contractor_config": 0.27847,
+        "telecom_hardware": 0.117448,
+        "cyber_intrusion": 0.042341,
+        "unattributed_other": 0.053382
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47998,
+          0.53532
+        ],
+        "contractor_config": [
+          0.25488,
+          0.30282
+        ]
+      }
+    },
+    {
+      "t_plus_min": 60,
+      "timestamp_utc": "2026-03-29T15:00:00.000Z",
+      "prices": {
+        "notam_software": 0.508391,
+        "contractor_config": 0.278544,
+        "telecom_hardware": 0.117524,
+        "cyber_intrusion": 0.042225,
+        "unattributed_other": 0.053316
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47936,
+          0.53532
+        ],
+        "contractor_config": [
+          0.25418,
+          0.30282
+        ]
+      }
+    },
+    {
+      "t_plus_min": 61,
+      "timestamp_utc": "2026-03-29T15:01:00.000Z",
+      "prices": {
+        "notam_software": 0.50828,
+        "contractor_config": 0.278739,
+        "telecom_hardware": 0.117378,
+        "cyber_intrusion": 0.042214,
+        "unattributed_other": 0.053389
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4761,
+          0.53676
+        ],
+        "contractor_config": [
+          0.25504,
+          0.30199
+        ]
+      }
+    },
+    {
+      "t_plus_min": 62,
+      "timestamp_utc": "2026-03-29T15:02:00.000Z",
+      "prices": {
+        "notam_software": 0.508281,
+        "contractor_config": 0.278764,
+        "telecom_hardware": 0.117485,
+        "cyber_intrusion": 0.042053,
+        "unattributed_other": 0.053417
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47572,
+          0.53614
+        ],
+        "contractor_config": [
+          0.25511,
+          0.30232
+        ]
+      }
+    },
+    {
+      "t_plus_min": 63,
+      "timestamp_utc": "2026-03-29T15:03:00.000Z",
+      "prices": {
+        "notam_software": 0.508566,
+        "contractor_config": 0.278602,
+        "telecom_hardware": 0.117441,
+        "cyber_intrusion": 0.041973,
+        "unattributed_other": 0.053418
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47682,
+          0.53822
+        ],
+        "contractor_config": [
+          0.25665,
+          0.30141
+        ]
+      }
+    },
+    {
+      "t_plus_min": 64,
+      "timestamp_utc": "2026-03-29T15:04:00.000Z",
+      "prices": {
+        "notam_software": 0.508762,
+        "contractor_config": 0.278448,
+        "telecom_hardware": 0.117523,
+        "cyber_intrusion": 0.041895,
+        "unattributed_other": 0.053372
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47807,
+          0.5379
+        ],
+        "contractor_config": [
+          0.25554,
+          0.30256
+        ]
+      }
+    },
+    {
+      "t_plus_min": 65,
+      "timestamp_utc": "2026-03-29T15:05:00.000Z",
+      "prices": {
+        "notam_software": 0.508522,
+        "contractor_config": 0.279065,
+        "telecom_hardware": 0.117383,
+        "cyber_intrusion": 0.041711,
+        "unattributed_other": 0.053319
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47544,
+          0.53947
+        ],
+        "contractor_config": [
+          0.25472,
+          0.30303
+        ]
+      }
+    },
+    {
+      "t_plus_min": 66,
+      "timestamp_utc": "2026-03-29T15:06:00.000Z",
+      "prices": {
+        "notam_software": 0.508614,
+        "contractor_config": 0.279166,
+        "telecom_hardware": 0.117257,
+        "cyber_intrusion": 0.041678,
+        "unattributed_other": 0.053285
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47766,
+          0.5387
+        ],
+        "contractor_config": [
+          0.25576,
+          0.30349
+        ]
+      }
+    },
+    {
+      "t_plus_min": 67,
+      "timestamp_utc": "2026-03-29T15:07:00.000Z",
+      "prices": {
+        "notam_software": 0.50817,
+        "contractor_config": 0.279572,
+        "telecom_hardware": 0.11732,
+        "cyber_intrusion": 0.041667,
+        "unattributed_other": 0.053272
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47507,
+          0.53645
+        ],
+        "contractor_config": [
+          0.25677,
+          0.3024
+        ]
+      }
+    },
+    {
+      "t_plus_min": 68,
+      "timestamp_utc": "2026-03-29T15:08:00.000Z",
+      "prices": {
+        "notam_software": 0.508606,
+        "contractor_config": 0.279542,
+        "telecom_hardware": 0.117074,
+        "cyber_intrusion": 0.041545,
+        "unattributed_other": 0.053234
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47662,
+          0.53546
+        ],
+        "contractor_config": [
+          0.25685,
+          0.30326
+        ]
+      }
+    },
+    {
+      "t_plus_min": 69,
+      "timestamp_utc": "2026-03-29T15:09:00.000Z",
+      "prices": {
+        "notam_software": 0.507879,
+        "contractor_config": 0.280079,
+        "telecom_hardware": 0.117269,
+        "cyber_intrusion": 0.041515,
+        "unattributed_other": 0.053257
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47522,
+          0.53682
+        ],
+        "contractor_config": [
+          0.25499,
+          0.30422
+        ]
+      }
+    },
+    {
+      "t_plus_min": 70,
+      "timestamp_utc": "2026-03-29T15:10:00.000Z",
+      "prices": {
+        "notam_software": 0.507867,
+        "contractor_config": 0.280526,
+        "telecom_hardware": 0.117123,
+        "cyber_intrusion": 0.041335,
+        "unattributed_other": 0.053149
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47578,
+          0.53796
+        ],
+        "contractor_config": [
+          0.25639,
+          0.30479
+        ]
+      }
+    },
+    {
+      "t_plus_min": 71,
+      "timestamp_utc": "2026-03-29T15:11:00.000Z",
+      "prices": {
+        "notam_software": 0.508446,
+        "contractor_config": 0.280264,
+        "telecom_hardware": 0.116941,
+        "cyber_intrusion": 0.041258,
+        "unattributed_other": 0.053091
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47609,
+          0.53864
+        ],
+        "contractor_config": [
+          0.25607,
+          0.303
+        ]
+      }
+    },
+    {
+      "t_plus_min": 72,
+      "timestamp_utc": "2026-03-29T15:12:00.000Z",
+      "prices": {
+        "notam_software": 0.508959,
+        "contractor_config": 0.279784,
+        "telecom_hardware": 0.116875,
+        "cyber_intrusion": 0.041245,
+        "unattributed_other": 0.053137
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47631,
+          0.53815
+        ],
+        "contractor_config": [
+          0.25546,
+          0.30526
+        ]
+      }
+    },
+    {
+      "t_plus_min": 73,
+      "timestamp_utc": "2026-03-29T15:13:00.000Z",
+      "prices": {
+        "notam_software": 0.509506,
+        "contractor_config": 0.279187,
+        "telecom_hardware": 0.11682,
+        "cyber_intrusion": 0.041292,
+        "unattributed_other": 0.053195
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47763,
+          0.53941
+        ],
+        "contractor_config": [
+          0.25519,
+          0.30368
+        ]
+      }
+    },
+    {
+      "t_plus_min": 74,
+      "timestamp_utc": "2026-03-29T15:14:00.000Z",
+      "prices": {
+        "notam_software": 0.50941,
+        "contractor_config": 0.279886,
+        "telecom_hardware": 0.116351,
+        "cyber_intrusion": 0.041205,
+        "unattributed_other": 0.053148
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47774,
+          0.53847
+        ],
+        "contractor_config": [
+          0.25613,
+          0.30559
+        ]
+      }
+    },
+    {
+      "t_plus_min": 75,
+      "timestamp_utc": "2026-03-29T15:15:00.000Z",
+      "prices": {
+        "notam_software": 0.509598,
+        "contractor_config": 0.27985,
+        "telecom_hardware": 0.116347,
+        "cyber_intrusion": 0.04114,
+        "unattributed_other": 0.053065
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4806,
+          0.54056
+        ],
+        "contractor_config": [
+          0.25558,
+          0.30534
+        ]
+      }
+    },
+    {
+      "t_plus_min": 76,
+      "timestamp_utc": "2026-03-29T15:16:00.000Z",
+      "prices": {
+        "notam_software": 0.509929,
+        "contractor_config": 0.279932,
+        "telecom_hardware": 0.11603,
+        "cyber_intrusion": 0.041046,
+        "unattributed_other": 0.053063
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48082,
+          0.53985
+        ],
+        "contractor_config": [
+          0.25367,
+          0.30685
+        ]
+      }
+    },
+    {
+      "t_plus_min": 77,
+      "timestamp_utc": "2026-03-29T15:17:00.000Z",
+      "prices": {
+        "notam_software": 0.509951,
+        "contractor_config": 0.279927,
+        "telecom_hardware": 0.115946,
+        "cyber_intrusion": 0.041059,
+        "unattributed_other": 0.053118
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48007,
+          0.54264
+        ],
+        "contractor_config": [
+          0.25498,
+          0.30665
+        ]
+      }
+    },
+    {
+      "t_plus_min": 78,
+      "timestamp_utc": "2026-03-29T15:18:00.000Z",
+      "prices": {
+        "notam_software": 0.510307,
+        "contractor_config": 0.279724,
+        "telecom_hardware": 0.115898,
+        "cyber_intrusion": 0.040961,
+        "unattributed_other": 0.05311
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47953,
+          0.54289
+        ],
+        "contractor_config": [
+          0.25398,
+          0.3039
+        ]
+      }
+    },
+    {
+      "t_plus_min": 79,
+      "timestamp_utc": "2026-03-29T15:19:00.000Z",
+      "prices": {
+        "notam_software": 0.509895,
+        "contractor_config": 0.279866,
+        "telecom_hardware": 0.116099,
+        "cyber_intrusion": 0.041066,
+        "unattributed_other": 0.053073
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47688,
+          0.54069
+        ],
+        "contractor_config": [
+          0.25553,
+          0.30534
+        ]
+      }
+    },
+    {
+      "t_plus_min": 80,
+      "timestamp_utc": "2026-03-29T15:20:00.000Z",
+      "prices": {
+        "notam_software": 0.510974,
+        "contractor_config": 0.279382,
+        "telecom_hardware": 0.115765,
+        "cyber_intrusion": 0.040784,
+        "unattributed_other": 0.053095
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47661,
+          0.54326
+        ],
+        "contractor_config": [
+          0.25379,
+          0.30526
+        ]
+      }
+    },
+    {
+      "t_plus_min": 81,
+      "timestamp_utc": "2026-03-29T15:21:00.000Z",
+      "prices": {
+        "notam_software": 0.51125,
+        "contractor_config": 0.279183,
+        "telecom_hardware": 0.115614,
+        "cyber_intrusion": 0.040814,
+        "unattributed_other": 0.05314
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47861,
+          0.54213
+        ],
+        "contractor_config": [
+          0.25212,
+          0.3046
+        ]
+      }
+    },
+    {
+      "t_plus_min": 82,
+      "timestamp_utc": "2026-03-29T15:22:00.000Z",
+      "prices": {
+        "notam_software": 0.511297,
+        "contractor_config": 0.279105,
+        "telecom_hardware": 0.115819,
+        "cyber_intrusion": 0.040646,
+        "unattributed_other": 0.053133
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47837,
+          0.54238
+        ],
+        "contractor_config": [
+          0.25271,
+          0.30596
+        ]
+      }
+    },
+    {
+      "t_plus_min": 83,
+      "timestamp_utc": "2026-03-29T15:23:00.000Z",
+      "prices": {
+        "notam_software": 0.510202,
+        "contractor_config": 0.280158,
+        "telecom_hardware": 0.115924,
+        "cyber_intrusion": 0.040594,
+        "unattributed_other": 0.053121
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4784,
+          0.53807
+        ],
+        "contractor_config": [
+          0.25701,
+          0.30668
+        ]
+      }
+    },
+    {
+      "t_plus_min": 84,
+      "timestamp_utc": "2026-03-29T15:24:00.000Z",
+      "prices": {
+        "notam_software": 0.510035,
+        "contractor_config": 0.280601,
+        "telecom_hardware": 0.115698,
+        "cyber_intrusion": 0.040561,
+        "unattributed_other": 0.053104
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48218,
+          0.53849
+        ],
+        "contractor_config": [
+          0.25577,
+          0.30564
+        ]
+      }
+    },
+    {
+      "t_plus_min": 85,
+      "timestamp_utc": "2026-03-29T15:25:00.000Z",
+      "prices": {
+        "notam_software": 0.512597,
+        "contractor_config": 0.283233,
+        "telecom_hardware": 0.114593,
+        "cyber_intrusion": 0.037322,
+        "unattributed_other": 0.052256
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47743,
+          0.54541
+        ],
+        "contractor_config": [
+          0.25669,
+          0.31196
+        ]
+      }
+    },
+    {
+      "t_plus_min": 86,
+      "timestamp_utc": "2026-03-29T15:26:00.000Z",
+      "prices": {
+        "notam_software": 0.514064,
+        "contractor_config": 0.285485,
+        "telecom_hardware": 0.113709,
+        "cyber_intrusion": 0.035122,
+        "unattributed_other": 0.05162
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47835,
+          0.5478
+        ],
+        "contractor_config": [
+          0.25694,
+          0.31374
+        ]
+      }
+    },
+    {
+      "t_plus_min": 87,
+      "timestamp_utc": "2026-03-29T15:27:00.000Z",
+      "prices": {
+        "notam_software": 0.514997,
+        "contractor_config": 0.287155,
+        "telecom_hardware": 0.113206,
+        "cyber_intrusion": 0.033419,
+        "unattributed_other": 0.051223
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48128,
+          0.54792
+        ],
+        "contractor_config": [
+          0.25758,
+          0.31646
+        ]
+      }
+    },
+    {
+      "t_plus_min": 88,
+      "timestamp_utc": "2026-03-29T15:28:00.000Z",
+      "prices": {
+        "notam_software": 0.515368,
+        "contractor_config": 0.288774,
+        "telecom_hardware": 0.112923,
+        "cyber_intrusion": 0.032155,
+        "unattributed_other": 0.05078
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47989,
+          0.54551
+        ],
+        "contractor_config": [
+          0.26015,
+          0.31924
+        ]
+      }
+    },
+    {
+      "t_plus_min": 89,
+      "timestamp_utc": "2026-03-29T15:29:00.000Z",
+      "prices": {
+        "notam_software": 0.516037,
+        "contractor_config": 0.289817,
+        "telecom_hardware": 0.112453,
+        "cyber_intrusion": 0.031198,
+        "unattributed_other": 0.050494
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47862,
+          0.54874
+        ],
+        "contractor_config": [
+          0.26048,
+          0.32249
+        ]
+      }
+    },
+    {
+      "t_plus_min": 90,
+      "timestamp_utc": "2026-03-29T15:30:00.000Z",
+      "prices": {
+        "notam_software": 0.516189,
+        "contractor_config": 0.290866,
+        "telecom_hardware": 0.112195,
+        "cyber_intrusion": 0.030433,
+        "unattributed_other": 0.050317
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48117,
+          0.54792
+        ],
+        "contractor_config": [
+          0.26152,
+          0.32124
+        ]
+      }
+    },
+    {
+      "t_plus_min": 91,
+      "timestamp_utc": "2026-03-29T15:31:00.000Z",
+      "prices": {
+        "notam_software": 0.51587,
+        "contractor_config": 0.291899,
+        "telecom_hardware": 0.11218,
+        "cyber_intrusion": 0.029844,
+        "unattributed_other": 0.050207
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48132,
+          0.54836
+        ],
+        "contractor_config": [
+          0.26165,
+          0.32158
+        ]
+      }
+    },
+    {
+      "t_plus_min": 92,
+      "timestamp_utc": "2026-03-29T15:32:00.000Z",
+      "prices": {
+        "notam_software": 0.515977,
+        "contractor_config": 0.292339,
+        "telecom_hardware": 0.112199,
+        "cyber_intrusion": 0.029373,
+        "unattributed_other": 0.050112
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4781,
+          0.55083
+        ],
+        "contractor_config": [
+          0.26033,
+          0.32161
+        ]
+      }
+    },
+    {
+      "t_plus_min": 93,
+      "timestamp_utc": "2026-03-29T15:33:00.000Z",
+      "prices": {
+        "notam_software": 0.516035,
+        "contractor_config": 0.292971,
+        "telecom_hardware": 0.112151,
+        "cyber_intrusion": 0.028933,
+        "unattributed_other": 0.04991
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47997,
+          0.55061
+        ],
+        "contractor_config": [
+          0.26336,
+          0.31994
+        ]
+      }
+    },
+    {
+      "t_plus_min": 94,
+      "timestamp_utc": "2026-03-29T15:34:00.000Z",
+      "prices": {
+        "notam_software": 0.516537,
+        "contractor_config": 0.293321,
+        "telecom_hardware": 0.111902,
+        "cyber_intrusion": 0.028497,
+        "unattributed_other": 0.049743
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48026,
+          0.55096
+        ],
+        "contractor_config": [
+          0.26389,
+          0.32207
+        ]
+      }
+    },
+    {
+      "t_plus_min": 95,
+      "timestamp_utc": "2026-03-29T15:35:00.000Z",
+      "prices": {
+        "notam_software": 0.51655,
+        "contractor_config": 0.293731,
+        "telecom_hardware": 0.111768,
+        "cyber_intrusion": 0.028271,
+        "unattributed_other": 0.049681
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48007,
+          0.55183
+        ],
+        "contractor_config": [
+          0.26484,
+          0.3229
+        ]
+      }
+    },
+    {
+      "t_plus_min": 96,
+      "timestamp_utc": "2026-03-29T15:36:00.000Z",
+      "prices": {
+        "notam_software": 0.516576,
+        "contractor_config": 0.294318,
+        "telecom_hardware": 0.111628,
+        "cyber_intrusion": 0.027972,
+        "unattributed_other": 0.049506
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47946,
+          0.55057
+        ],
+        "contractor_config": [
+          0.26569,
+          0.32346
+        ]
+      }
+    },
+    {
+      "t_plus_min": 97,
+      "timestamp_utc": "2026-03-29T15:37:00.000Z",
+      "prices": {
+        "notam_software": 0.517008,
+        "contractor_config": 0.294454,
+        "telecom_hardware": 0.111358,
+        "cyber_intrusion": 0.027756,
+        "unattributed_other": 0.049424
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47773,
+          0.55203
+        ],
+        "contractor_config": [
+          0.26596,
+          0.32659
+        ]
+      }
+    },
+    {
+      "t_plus_min": 98,
+      "timestamp_utc": "2026-03-29T15:38:00.000Z",
+      "prices": {
+        "notam_software": 0.516801,
+        "contractor_config": 0.294918,
+        "telecom_hardware": 0.11133,
+        "cyber_intrusion": 0.027614,
+        "unattributed_other": 0.049337
+      },
+      "ci_80": {
+        "notam_software": [
+          0.47893,
+          0.55111
+        ],
+        "contractor_config": [
+          0.26648,
+          0.32527
+        ]
+      }
+    },
+    {
+      "t_plus_min": 99,
+      "timestamp_utc": "2026-03-29T15:39:00.000Z",
+      "prices": {
+        "notam_software": 0.516299,
+        "contractor_config": 0.295798,
+        "telecom_hardware": 0.11128,
+        "cyber_intrusion": 0.027414,
+        "unattributed_other": 0.04921
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48232,
+          0.55171
+        ],
+        "contractor_config": [
+          0.26795,
+          0.32675
+        ]
+      }
+    },
+    {
+      "t_plus_min": 100,
+      "timestamp_utc": "2026-03-29T15:40:00.000Z",
+      "prices": {
+        "notam_software": 0.515964,
+        "contractor_config": 0.296231,
+        "telecom_hardware": 0.111342,
+        "cyber_intrusion": 0.027254,
+        "unattributed_other": 0.049209
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48126,
+          0.55136
+        ],
+        "contractor_config": [
+          0.26562,
+          0.32841
+        ]
+      }
+    },
+    {
+      "t_plus_min": 101,
+      "timestamp_utc": "2026-03-29T15:41:00.000Z",
+      "prices": {
+        "notam_software": 0.515682,
+        "contractor_config": 0.2969,
+        "telecom_hardware": 0.111239,
+        "cyber_intrusion": 0.027074,
+        "unattributed_other": 0.049105
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48219,
+          0.55031
+        ],
+        "contractor_config": [
+          0.26601,
+          0.33091
+        ]
+      }
+    },
+    {
+      "t_plus_min": 102,
+      "timestamp_utc": "2026-03-29T15:42:00.000Z",
+      "prices": {
+        "notam_software": 0.51578,
+        "contractor_config": 0.297248,
+        "telecom_hardware": 0.111139,
+        "cyber_intrusion": 0.026873,
+        "unattributed_other": 0.04896
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48382,
+          0.55159
+        ],
+        "contractor_config": [
+          0.26943,
+          0.33065
+        ]
+      }
+    },
+    {
+      "t_plus_min": 103,
+      "timestamp_utc": "2026-03-29T15:43:00.000Z",
+      "prices": {
+        "notam_software": 0.515722,
+        "contractor_config": 0.297458,
+        "telecom_hardware": 0.11113,
+        "cyber_intrusion": 0.026769,
+        "unattributed_other": 0.048921
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48132,
+          0.54885
+        ],
+        "contractor_config": [
+          0.26718,
+          0.32982
+        ]
+      }
+    },
+    {
+      "t_plus_min": 104,
+      "timestamp_utc": "2026-03-29T15:44:00.000Z",
+      "prices": {
+        "notam_software": 0.516199,
+        "contractor_config": 0.297232,
+        "telecom_hardware": 0.111064,
+        "cyber_intrusion": 0.026628,
+        "unattributed_other": 0.048876
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48279,
+          0.55008
+        ],
+        "contractor_config": [
+          0.26693,
+          0.33051
+        ]
+      }
+    },
+    {
+      "t_plus_min": 105,
+      "timestamp_utc": "2026-03-29T15:45:00.000Z",
+      "prices": {
+        "notam_software": 0.516678,
+        "contractor_config": 0.296834,
+        "telecom_hardware": 0.111047,
+        "cyber_intrusion": 0.026518,
+        "unattributed_other": 0.048922
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48421,
+          0.55211
+        ],
+        "contractor_config": [
+          0.26898,
+          0.32665
+        ]
+      }
+    },
+    {
+      "t_plus_min": 106,
+      "timestamp_utc": "2026-03-29T15:46:00.000Z",
+      "prices": {
+        "notam_software": 0.516983,
+        "contractor_config": 0.296686,
+        "telecom_hardware": 0.110982,
+        "cyber_intrusion": 0.02644,
+        "unattributed_other": 0.048909
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48474,
+          0.55245
+        ],
+        "contractor_config": [
+          0.26765,
+          0.32633
+        ]
+      }
+    },
+    {
+      "t_plus_min": 107,
+      "timestamp_utc": "2026-03-29T15:47:00.000Z",
+      "prices": {
+        "notam_software": 0.516843,
+        "contractor_config": 0.296918,
+        "telecom_hardware": 0.110997,
+        "cyber_intrusion": 0.026376,
+        "unattributed_other": 0.048866
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48422,
+          0.5503
+        ],
+        "contractor_config": [
+          0.26968,
+          0.32762
+        ]
+      }
+    },
+    {
+      "t_plus_min": 108,
+      "timestamp_utc": "2026-03-29T15:48:00.000Z",
+      "prices": {
+        "notam_software": 0.517018,
+        "contractor_config": 0.296876,
+        "telecom_hardware": 0.111031,
+        "cyber_intrusion": 0.026289,
+        "unattributed_other": 0.048787
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48361,
+          0.54848
+        ],
+        "contractor_config": [
+          0.2685,
+          0.32984
+        ]
+      }
+    },
+    {
+      "t_plus_min": 109,
+      "timestamp_utc": "2026-03-29T15:49:00.000Z",
+      "prices": {
+        "notam_software": 0.516753,
+        "contractor_config": 0.297124,
+        "telecom_hardware": 0.111018,
+        "cyber_intrusion": 0.026238,
+        "unattributed_other": 0.048867
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48611,
+          0.5491
+        ],
+        "contractor_config": [
+          0.26855,
+          0.32771
+        ]
+      }
+    },
+    {
+      "t_plus_min": 110,
+      "timestamp_utc": "2026-03-29T15:50:00.000Z",
+      "prices": {
+        "notam_software": 0.516885,
+        "contractor_config": 0.297317,
+        "telecom_hardware": 0.110745,
+        "cyber_intrusion": 0.026181,
+        "unattributed_other": 0.048872
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48278,
+          0.54888
+        ],
+        "contractor_config": [
+          0.26874,
+          0.32862
+        ]
+      }
+    },
+    {
+      "t_plus_min": 111,
+      "timestamp_utc": "2026-03-29T15:51:00.000Z",
+      "prices": {
+        "notam_software": 0.517021,
+        "contractor_config": 0.297592,
+        "telecom_hardware": 0.110626,
+        "cyber_intrusion": 0.026069,
+        "unattributed_other": 0.048691
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48378,
+          0.55063
+        ],
+        "contractor_config": [
+          0.26899,
+          0.33091
+        ]
+      }
+    },
+    {
+      "t_plus_min": 112,
+      "timestamp_utc": "2026-03-29T15:52:00.000Z",
+      "prices": {
+        "notam_software": 0.51731,
+        "contractor_config": 0.29718,
+        "telecom_hardware": 0.110833,
+        "cyber_intrusion": 0.025979,
+        "unattributed_other": 0.048698
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48353,
+          0.54912
+        ],
+        "contractor_config": [
+          0.26842,
+          0.32747
+        ]
+      }
+    },
+    {
+      "t_plus_min": 113,
+      "timestamp_utc": "2026-03-29T15:53:00.000Z",
+      "prices": {
+        "notam_software": 0.51756,
+        "contractor_config": 0.297241,
+        "telecom_hardware": 0.110631,
+        "cyber_intrusion": 0.025898,
+        "unattributed_other": 0.04867
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48617,
+          0.55022
+        ],
+        "contractor_config": [
+          0.2691,
+          0.33054
+        ]
+      }
+    },
+    {
+      "t_plus_min": 114,
+      "timestamp_utc": "2026-03-29T15:54:00.000Z",
+      "prices": {
+        "notam_software": 0.518002,
+        "contractor_config": 0.297039,
+        "telecom_hardware": 0.110511,
+        "cyber_intrusion": 0.025805,
+        "unattributed_other": 0.048643
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48657,
+          0.55253
+        ],
+        "contractor_config": [
+          0.26838,
+          0.32777
+        ]
+      }
+    },
+    {
+      "t_plus_min": 115,
+      "timestamp_utc": "2026-03-29T15:55:00.000Z",
+      "prices": {
+        "notam_software": 0.518605,
+        "contractor_config": 0.296504,
+        "telecom_hardware": 0.110523,
+        "cyber_intrusion": 0.025743,
+        "unattributed_other": 0.048625
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48681,
+          0.54963
+        ],
+        "contractor_config": [
+          0.26775,
+          0.32799
+        ]
+      }
+    },
+    {
+      "t_plus_min": 116,
+      "timestamp_utc": "2026-03-29T15:56:00.000Z",
+      "prices": {
+        "notam_software": 0.518886,
+        "contractor_config": 0.296627,
+        "telecom_hardware": 0.110232,
+        "cyber_intrusion": 0.025678,
+        "unattributed_other": 0.048577
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4892,
+          0.5505
+        ],
+        "contractor_config": [
+          0.26909,
+          0.3254
+        ]
+      }
+    },
+    {
+      "t_plus_min": 117,
+      "timestamp_utc": "2026-03-29T15:57:00.000Z",
+      "prices": {
+        "notam_software": 0.518745,
+        "contractor_config": 0.296874,
+        "telecom_hardware": 0.110136,
+        "cyber_intrusion": 0.025581,
+        "unattributed_other": 0.048664
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4877,
+          0.55185
+        ],
+        "contractor_config": [
+          0.27009,
+          0.32583
+        ]
+      }
+    },
+    {
+      "t_plus_min": 118,
+      "timestamp_utc": "2026-03-29T15:58:00.000Z",
+      "prices": {
+        "notam_software": 0.518271,
+        "contractor_config": 0.297332,
+        "telecom_hardware": 0.110114,
+        "cyber_intrusion": 0.02557,
+        "unattributed_other": 0.048713
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48475,
+          0.55244
+        ],
+        "contractor_config": [
+          0.26929,
+          0.32748
+        ]
+      }
+    },
+    {
+      "t_plus_min": 119,
+      "timestamp_utc": "2026-03-29T15:59:00.000Z",
+      "prices": {
+        "notam_software": 0.517669,
+        "contractor_config": 0.297894,
+        "telecom_hardware": 0.110153,
+        "cyber_intrusion": 0.025527,
+        "unattributed_other": 0.048757
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48526,
+          0.55297
+        ],
+        "contractor_config": [
+          0.26857,
+          0.32797
+        ]
+      }
+    },
+    {
+      "t_plus_min": 120,
+      "timestamp_utc": "2026-03-29T16:00:00.000Z",
+      "prices": {
+        "notam_software": 0.517578,
+        "contractor_config": 0.29819,
+        "telecom_hardware": 0.110016,
+        "cyber_intrusion": 0.025448,
+        "unattributed_other": 0.048767
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48636,
+          0.55126
+        ],
+        "contractor_config": [
+          0.26825,
+          0.32377
+        ]
+      }
+    },
+    {
+      "t_plus_min": 121,
+      "timestamp_utc": "2026-03-29T16:01:00.000Z",
+      "prices": {
+        "notam_software": 0.517118,
+        "contractor_config": 0.298403,
+        "telecom_hardware": 0.11033,
+        "cyber_intrusion": 0.025348,
+        "unattributed_other": 0.048802
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48563,
+          0.54851
+        ],
+        "contractor_config": [
+          0.27074,
+          0.32714
+        ]
+      }
+    },
+    {
+      "t_plus_min": 122,
+      "timestamp_utc": "2026-03-29T16:02:00.000Z",
+      "prices": {
+        "notam_software": 0.517486,
+        "contractor_config": 0.298255,
+        "telecom_hardware": 0.110311,
+        "cyber_intrusion": 0.025267,
+        "unattributed_other": 0.048681
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48693,
+          0.54818
+        ],
+        "contractor_config": [
+          0.27185,
+          0.32724
+        ]
+      }
+    },
+    {
+      "t_plus_min": 123,
+      "timestamp_utc": "2026-03-29T16:03:00.000Z",
+      "prices": {
+        "notam_software": 0.517429,
+        "contractor_config": 0.298536,
+        "telecom_hardware": 0.110221,
+        "cyber_intrusion": 0.025159,
+        "unattributed_other": 0.048655
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48363,
+          0.54443
+        ],
+        "contractor_config": [
+          0.27168,
+          0.32821
+        ]
+      }
+    },
+    {
+      "t_plus_min": 124,
+      "timestamp_utc": "2026-03-29T16:04:00.000Z",
+      "prices": {
+        "notam_software": 0.51715,
+        "contractor_config": 0.298825,
+        "telecom_hardware": 0.110216,
+        "cyber_intrusion": 0.025161,
+        "unattributed_other": 0.048648
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48222,
+          0.54228
+        ],
+        "contractor_config": [
+          0.27343,
+          0.32766
+        ]
+      }
+    },
+    {
+      "t_plus_min": 125,
+      "timestamp_utc": "2026-03-29T16:05:00.000Z",
+      "prices": {
+        "notam_software": 0.517221,
+        "contractor_config": 0.299185,
+        "telecom_hardware": 0.109975,
+        "cyber_intrusion": 0.025053,
+        "unattributed_other": 0.048566
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48383,
+          0.54661
+        ],
+        "contractor_config": [
+          0.27335,
+          0.32848
+        ]
+      }
+    },
+    {
+      "t_plus_min": 126,
+      "timestamp_utc": "2026-03-29T16:06:00.000Z",
+      "prices": {
+        "notam_software": 0.516722,
+        "contractor_config": 0.299472,
+        "telecom_hardware": 0.110172,
+        "cyber_intrusion": 0.025041,
+        "unattributed_other": 0.048593
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48193,
+          0.54658
+        ],
+        "contractor_config": [
+          0.27422,
+          0.32901
+        ]
+      }
+    },
+    {
+      "t_plus_min": 127,
+      "timestamp_utc": "2026-03-29T16:07:00.000Z",
+      "prices": {
+        "notam_software": 0.516508,
+        "contractor_config": 0.299705,
+        "telecom_hardware": 0.110297,
+        "cyber_intrusion": 0.024927,
+        "unattributed_other": 0.048564
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48386,
+          0.54627
+        ],
+        "contractor_config": [
+          0.27529,
+          0.32768
+        ]
+      }
+    },
+    {
+      "t_plus_min": 128,
+      "timestamp_utc": "2026-03-29T16:08:00.000Z",
+      "prices": {
+        "notam_software": 0.515874,
+        "contractor_config": 0.300223,
+        "telecom_hardware": 0.110302,
+        "cyber_intrusion": 0.024912,
+        "unattributed_other": 0.048689
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4835,
+          0.54627
+        ],
+        "contractor_config": [
+          0.27462,
+          0.32671
+        ]
+      }
+    },
+    {
+      "t_plus_min": 129,
+      "timestamp_utc": "2026-03-29T16:09:00.000Z",
+      "prices": {
+        "notam_software": 0.516384,
+        "contractor_config": 0.299759,
+        "telecom_hardware": 0.11021,
+        "cyber_intrusion": 0.024927,
+        "unattributed_other": 0.048721
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4835,
+          0.54571
+        ],
+        "contractor_config": [
+          0.2737,
+          0.32742
+        ]
+      }
+    },
+    {
+      "t_plus_min": 130,
+      "timestamp_utc": "2026-03-29T16:10:00.000Z",
+      "prices": {
+        "notam_software": 0.516107,
+        "contractor_config": 0.300127,
+        "telecom_hardware": 0.110094,
+        "cyber_intrusion": 0.024942,
+        "unattributed_other": 0.048731
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48404,
+          0.54722
+        ],
+        "contractor_config": [
+          0.27347,
+          0.32794
+        ]
+      }
+    },
+    {
+      "t_plus_min": 131,
+      "timestamp_utc": "2026-03-29T16:11:00.000Z",
+      "prices": {
+        "notam_software": 0.515996,
+        "contractor_config": 0.300135,
+        "telecom_hardware": 0.11025,
+        "cyber_intrusion": 0.02489,
+        "unattributed_other": 0.04873
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48254,
+          0.54392
+        ],
+        "contractor_config": [
+          0.27585,
+          0.32603
+        ]
+      }
+    },
+    {
+      "t_plus_min": 132,
+      "timestamp_utc": "2026-03-29T16:12:00.000Z",
+      "prices": {
+        "notam_software": 0.515838,
+        "contractor_config": 0.300431,
+        "telecom_hardware": 0.110157,
+        "cyber_intrusion": 0.024915,
+        "unattributed_other": 0.048659
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48073,
+          0.54459
+        ],
+        "contractor_config": [
+          0.27568,
+          0.32809
+        ]
+      }
+    },
+    {
+      "t_plus_min": 133,
+      "timestamp_utc": "2026-03-29T16:13:00.000Z",
+      "prices": {
+        "notam_software": 0.515919,
+        "contractor_config": 0.300547,
+        "telecom_hardware": 0.110106,
+        "cyber_intrusion": 0.024827,
+        "unattributed_other": 0.048602
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48382,
+          0.54558
+        ],
+        "contractor_config": [
+          0.27633,
+          0.33013
+        ]
+      }
+    },
+    {
+      "t_plus_min": 134,
+      "timestamp_utc": "2026-03-29T16:14:00.000Z",
+      "prices": {
+        "notam_software": 0.515781,
+        "contractor_config": 0.300511,
+        "telecom_hardware": 0.110224,
+        "cyber_intrusion": 0.024803,
+        "unattributed_other": 0.048681
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48177,
+          0.54466
+        ],
+        "contractor_config": [
+          0.27408,
+          0.33362
+        ]
+      }
+    },
+    {
+      "t_plus_min": 135,
+      "timestamp_utc": "2026-03-29T16:15:00.000Z",
+      "prices": {
+        "notam_software": 0.51653,
+        "contractor_config": 0.300029,
+        "telecom_hardware": 0.109981,
+        "cyber_intrusion": 0.024804,
+        "unattributed_other": 0.048655
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48466,
+          0.54554
+        ],
+        "contractor_config": [
+          0.2742,
+          0.33185
+        ]
+      }
+    },
+    {
+      "t_plus_min": 136,
+      "timestamp_utc": "2026-03-29T16:16:00.000Z",
+      "prices": {
+        "notam_software": 0.516329,
+        "contractor_config": 0.300742,
+        "telecom_hardware": 0.109644,
+        "cyber_intrusion": 0.024725,
+        "unattributed_other": 0.048561
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48678,
+          0.54651
+        ],
+        "contractor_config": [
+          0.27462,
+          0.32946
+        ]
+      }
+    },
+    {
+      "t_plus_min": 137,
+      "timestamp_utc": "2026-03-29T16:17:00.000Z",
+      "prices": {
+        "notam_software": 0.51566,
+        "contractor_config": 0.301441,
+        "telecom_hardware": 0.109555,
+        "cyber_intrusion": 0.024707,
+        "unattributed_other": 0.048637
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48372,
+          0.54592
+        ],
+        "contractor_config": [
+          0.2744,
+          0.33021
+        ]
+      }
+    },
+    {
+      "t_plus_min": 138,
+      "timestamp_utc": "2026-03-29T16:18:00.000Z",
+      "prices": {
+        "notam_software": 0.516205,
+        "contractor_config": 0.300764,
+        "telecom_hardware": 0.109643,
+        "cyber_intrusion": 0.024677,
+        "unattributed_other": 0.04871
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48836,
+          0.54385
+        ],
+        "contractor_config": [
+          0.27439,
+          0.3267
+        ]
+      }
+    },
+    {
+      "t_plus_min": 139,
+      "timestamp_utc": "2026-03-29T16:19:00.000Z",
+      "prices": {
+        "notam_software": 0.51578,
+        "contractor_config": 0.301182,
+        "telecom_hardware": 0.109698,
+        "cyber_intrusion": 0.024655,
+        "unattributed_other": 0.048685
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48734,
+          0.54545
+        ],
+        "contractor_config": [
+          0.27416,
+          0.32669
+        ]
+      }
+    },
+    {
+      "t_plus_min": 140,
+      "timestamp_utc": "2026-03-29T16:20:00.000Z",
+      "prices": {
+        "notam_software": 0.515707,
+        "contractor_config": 0.301367,
+        "telecom_hardware": 0.109681,
+        "cyber_intrusion": 0.024612,
+        "unattributed_other": 0.048633
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48748,
+          0.54488
+        ],
+        "contractor_config": [
+          0.27664,
+          0.33198
+        ]
+      }
+    },
+    {
+      "t_plus_min": 141,
+      "timestamp_utc": "2026-03-29T16:21:00.000Z",
+      "prices": {
+        "notam_software": 0.515278,
+        "contractor_config": 0.302007,
+        "telecom_hardware": 0.109557,
+        "cyber_intrusion": 0.024542,
+        "unattributed_other": 0.048615
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48778,
+          0.5451
+        ],
+        "contractor_config": [
+          0.2775,
+          0.3295
+        ]
+      }
+    },
+    {
+      "t_plus_min": 142,
+      "timestamp_utc": "2026-03-29T16:22:00.000Z",
+      "prices": {
+        "notam_software": 0.51445,
+        "contractor_config": 0.302423,
+        "telecom_hardware": 0.109778,
+        "cyber_intrusion": 0.024614,
+        "unattributed_other": 0.048735
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48575,
+          0.54278
+        ],
+        "contractor_config": [
+          0.27688,
+          0.32889
+        ]
+      }
+    },
+    {
+      "t_plus_min": 143,
+      "timestamp_utc": "2026-03-29T16:23:00.000Z",
+      "prices": {
+        "notam_software": 0.51425,
+        "contractor_config": 0.302377,
+        "telecom_hardware": 0.109957,
+        "cyber_intrusion": 0.024631,
+        "unattributed_other": 0.048785
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48811,
+          0.54118
+        ],
+        "contractor_config": [
+          0.27772,
+          0.33064
+        ]
+      }
+    },
+    {
+      "t_plus_min": 144,
+      "timestamp_utc": "2026-03-29T16:24:00.000Z",
+      "prices": {
+        "notam_software": 0.514543,
+        "contractor_config": 0.30217,
+        "telecom_hardware": 0.109919,
+        "cyber_intrusion": 0.0246,
+        "unattributed_other": 0.048767
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4861,
+          0.54163
+        ],
+        "contractor_config": [
+          0.27657,
+          0.32815
+        ]
+      }
+    },
+    {
+      "t_plus_min": 145,
+      "timestamp_utc": "2026-03-29T16:25:00.000Z",
+      "prices": {
+        "notam_software": 0.514675,
+        "contractor_config": 0.30209,
+        "telecom_hardware": 0.109908,
+        "cyber_intrusion": 0.024579,
+        "unattributed_other": 0.048748
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48873,
+          0.5424
+        ],
+        "contractor_config": [
+          0.27831,
+          0.32806
+        ]
+      }
+    },
+    {
+      "t_plus_min": 146,
+      "timestamp_utc": "2026-03-29T16:26:00.000Z",
+      "prices": {
+        "notam_software": 0.514457,
+        "contractor_config": 0.301912,
+        "telecom_hardware": 0.110253,
+        "cyber_intrusion": 0.024546,
+        "unattributed_other": 0.048831
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4874,
+          0.54462
+        ],
+        "contractor_config": [
+          0.27753,
+          0.32831
+        ]
+      }
+    },
+    {
+      "t_plus_min": 147,
+      "timestamp_utc": "2026-03-29T16:27:00.000Z",
+      "prices": {
+        "notam_software": 0.514052,
+        "contractor_config": 0.30206,
+        "telecom_hardware": 0.110466,
+        "cyber_intrusion": 0.024576,
+        "unattributed_other": 0.048846
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48541,
+          0.54094
+        ],
+        "contractor_config": [
+          0.27593,
+          0.33079
+        ]
+      }
+    },
+    {
+      "t_plus_min": 148,
+      "timestamp_utc": "2026-03-29T16:28:00.000Z",
+      "prices": {
+        "notam_software": 0.513892,
+        "contractor_config": 0.302118,
+        "telecom_hardware": 0.11058,
+        "cyber_intrusion": 0.024566,
+        "unattributed_other": 0.048845
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48526,
+          0.54033
+        ],
+        "contractor_config": [
+          0.27826,
+          0.32847
+        ]
+      }
+    },
+    {
+      "t_plus_min": 149,
+      "timestamp_utc": "2026-03-29T16:29:00.000Z",
+      "prices": {
+        "notam_software": 0.514564,
+        "contractor_config": 0.301594,
+        "telecom_hardware": 0.110417,
+        "cyber_intrusion": 0.024602,
+        "unattributed_other": 0.048823
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48782,
+          0.5422
+        ],
+        "contractor_config": [
+          0.27771,
+          0.32863
+        ]
+      }
+    },
+    {
+      "t_plus_min": 150,
+      "timestamp_utc": "2026-03-29T16:30:00.000Z",
+      "prices": {
+        "notam_software": 0.517449,
+        "contractor_config": 0.305525,
+        "telecom_hardware": 0.106356,
+        "cyber_intrusion": 0.023467,
+        "unattributed_other": 0.047204
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48527,
+          0.54923
+        ],
+        "contractor_config": [
+          0.27778,
+          0.33507
+        ]
+      }
+    },
+    {
+      "t_plus_min": 151,
+      "timestamp_utc": "2026-03-29T16:31:00.000Z",
+      "prices": {
+        "notam_software": 0.51871,
+        "contractor_config": 0.309251,
+        "telecom_hardware": 0.103362,
+        "cyber_intrusion": 0.022614,
+        "unattributed_other": 0.046062
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48492,
+          0.55245
+        ],
+        "contractor_config": [
+          0.28098,
+          0.33966
+        ]
+      }
+    },
+    {
+      "t_plus_min": 152,
+      "timestamp_utc": "2026-03-29T16:32:00.000Z",
+      "prices": {
+        "notam_software": 0.519969,
+        "contractor_config": 0.311739,
+        "telecom_hardware": 0.101127,
+        "cyber_intrusion": 0.022039,
+        "unattributed_other": 0.045126
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48453,
+          0.55164
+        ],
+        "contractor_config": [
+          0.28503,
+          0.34143
+        ]
+      }
+    },
+    {
+      "t_plus_min": 153,
+      "timestamp_utc": "2026-03-29T16:33:00.000Z",
+      "prices": {
+        "notam_software": 0.521535,
+        "contractor_config": 0.31325,
+        "telecom_hardware": 0.09927,
+        "cyber_intrusion": 0.021541,
+        "unattributed_other": 0.044404
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4868,
+          0.55324
+        ],
+        "contractor_config": [
+          0.28833,
+          0.34437
+        ]
+      }
+    },
+    {
+      "t_plus_min": 154,
+      "timestamp_utc": "2026-03-29T16:34:00.000Z",
+      "prices": {
+        "notam_software": 0.522862,
+        "contractor_config": 0.314479,
+        "telecom_hardware": 0.097708,
+        "cyber_intrusion": 0.021129,
+        "unattributed_other": 0.043823
+      },
+      "ci_80": {
+        "notam_software": [
+          0.48986,
+          0.55627
+        ],
+        "contractor_config": [
+          0.28577,
+          0.34579
+        ]
+      }
+    },
+    {
+      "t_plus_min": 155,
+      "timestamp_utc": "2026-03-29T16:35:00.000Z",
+      "prices": {
+        "notam_software": 0.522948,
+        "contractor_config": 0.316487,
+        "telecom_hardware": 0.096508,
+        "cyber_intrusion": 0.020806,
+        "unattributed_other": 0.043252
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49218,
+          0.55413
+        ],
+        "contractor_config": [
+          0.28978,
+          0.34463
+        ]
+      }
+    },
+    {
+      "t_plus_min": 156,
+      "timestamp_utc": "2026-03-29T16:36:00.000Z",
+      "prices": {
+        "notam_software": 0.523583,
+        "contractor_config": 0.317449,
+        "telecom_hardware": 0.095572,
+        "cyber_intrusion": 0.020505,
+        "unattributed_other": 0.042891
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49233,
+          0.55386
+        ],
+        "contractor_config": [
+          0.29019,
+          0.35037
+        ]
+      }
+    },
+    {
+      "t_plus_min": 157,
+      "timestamp_utc": "2026-03-29T16:37:00.000Z",
+      "prices": {
+        "notam_software": 0.524314,
+        "contractor_config": 0.318096,
+        "telecom_hardware": 0.094695,
+        "cyber_intrusion": 0.020308,
+        "unattributed_other": 0.042587
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49453,
+          0.55395
+        ],
+        "contractor_config": [
+          0.29263,
+          0.34884
+        ]
+      }
+    },
+    {
+      "t_plus_min": 158,
+      "timestamp_utc": "2026-03-29T16:38:00.000Z",
+      "prices": {
+        "notam_software": 0.524265,
+        "contractor_config": 0.319105,
+        "telecom_hardware": 0.094186,
+        "cyber_intrusion": 0.020093,
+        "unattributed_other": 0.042351
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49366,
+          0.55356
+        ],
+        "contractor_config": [
+          0.29315,
+          0.35018
+        ]
+      }
+    },
+    {
+      "t_plus_min": 159,
+      "timestamp_utc": "2026-03-29T16:39:00.000Z",
+      "prices": {
+        "notam_software": 0.524171,
+        "contractor_config": 0.320363,
+        "telecom_hardware": 0.093492,
+        "cyber_intrusion": 0.019904,
+        "unattributed_other": 0.04207
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49299,
+          0.55316
+        ],
+        "contractor_config": [
+          0.29412,
+          0.35094
+        ]
+      }
+    },
+    {
+      "t_plus_min": 160,
+      "timestamp_utc": "2026-03-29T16:40:00.000Z",
+      "prices": {
+        "notam_software": 0.523873,
+        "contractor_config": 0.321383,
+        "telecom_hardware": 0.093013,
+        "cyber_intrusion": 0.019815,
+        "unattributed_other": 0.041916
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49155,
+          0.55435
+        ],
+        "contractor_config": [
+          0.29628,
+          0.35393
+        ]
+      }
+    },
+    {
+      "t_plus_min": 161,
+      "timestamp_utc": "2026-03-29T16:41:00.000Z",
+      "prices": {
+        "notam_software": 0.523874,
+        "contractor_config": 0.322112,
+        "telecom_hardware": 0.0926,
+        "cyber_intrusion": 0.019707,
+        "unattributed_other": 0.041706
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49253,
+          0.55474
+        ],
+        "contractor_config": [
+          0.29639,
+          0.35308
+        ]
+      }
+    },
+    {
+      "t_plus_min": 162,
+      "timestamp_utc": "2026-03-29T16:42:00.000Z",
+      "prices": {
+        "notam_software": 0.524278,
+        "contractor_config": 0.322496,
+        "telecom_hardware": 0.09207,
+        "cyber_intrusion": 0.019559,
+        "unattributed_other": 0.041597
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49237,
+          0.55365
+        ],
+        "contractor_config": [
+          0.2974,
+          0.35177
+        ]
+      }
+    },
+    {
+      "t_plus_min": 163,
+      "timestamp_utc": "2026-03-29T16:43:00.000Z",
+      "prices": {
+        "notam_software": 0.525084,
+        "contractor_config": 0.322387,
+        "telecom_hardware": 0.091673,
+        "cyber_intrusion": 0.019434,
+        "unattributed_other": 0.041422
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49342,
+          0.55478
+        ],
+        "contractor_config": [
+          0.29585,
+          0.35191
+        ]
+      }
+    },
+    {
+      "t_plus_min": 164,
+      "timestamp_utc": "2026-03-29T16:44:00.000Z",
+      "prices": {
+        "notam_software": 0.524502,
+        "contractor_config": 0.323412,
+        "telecom_hardware": 0.091465,
+        "cyber_intrusion": 0.019295,
+        "unattributed_other": 0.041326
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4937,
+          0.55335
+        ],
+        "contractor_config": [
+          0.29691,
+          0.35289
+        ]
+      }
+    },
+    {
+      "t_plus_min": 165,
+      "timestamp_utc": "2026-03-29T16:45:00.000Z",
+      "prices": {
+        "notam_software": 0.524974,
+        "contractor_config": 0.323721,
+        "telecom_hardware": 0.090997,
+        "cyber_intrusion": 0.019206,
+        "unattributed_other": 0.041102
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49717,
+          0.55481
+        ],
+        "contractor_config": [
+          0.29571,
+          0.35291
+        ]
+      }
+    },
+    {
+      "t_plus_min": 166,
+      "timestamp_utc": "2026-03-29T16:46:00.000Z",
+      "prices": {
+        "notam_software": 0.525066,
+        "contractor_config": 0.323982,
+        "telecom_hardware": 0.090795,
+        "cyber_intrusion": 0.019168,
+        "unattributed_other": 0.04099
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49658,
+          0.55606
+        ],
+        "contractor_config": [
+          0.29592,
+          0.35136
+        ]
+      }
+    },
+    {
+      "t_plus_min": 167,
+      "timestamp_utc": "2026-03-29T16:47:00.000Z",
+      "prices": {
+        "notam_software": 0.524567,
+        "contractor_config": 0.324513,
+        "telecom_hardware": 0.090877,
+        "cyber_intrusion": 0.019088,
+        "unattributed_other": 0.040955
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49772,
+          0.55376
+        ],
+        "contractor_config": [
+          0.29552,
+          0.35018
+        ]
+      }
+    },
+    {
+      "t_plus_min": 168,
+      "timestamp_utc": "2026-03-29T16:48:00.000Z",
+      "prices": {
+        "notam_software": 0.524798,
+        "contractor_config": 0.324667,
+        "telecom_hardware": 0.090647,
+        "cyber_intrusion": 0.019027,
+        "unattributed_other": 0.040862
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49873,
+          0.55502
+        ],
+        "contractor_config": [
+          0.29684,
+          0.35278
+        ]
+      }
+    },
+    {
+      "t_plus_min": 169,
+      "timestamp_utc": "2026-03-29T16:49:00.000Z",
+      "prices": {
+        "notam_software": 0.524724,
+        "contractor_config": 0.325227,
+        "telecom_hardware": 0.090329,
+        "cyber_intrusion": 0.018987,
+        "unattributed_other": 0.040732
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49619,
+          0.55353
+        ],
+        "contractor_config": [
+          0.29731,
+          0.35299
+        ]
+      }
+    },
+    {
+      "t_plus_min": 170,
+      "timestamp_utc": "2026-03-29T16:50:00.000Z",
+      "prices": {
+        "notam_software": 0.524606,
+        "contractor_config": 0.325607,
+        "telecom_hardware": 0.090171,
+        "cyber_intrusion": 0.018947,
+        "unattributed_other": 0.040669
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4934,
+          0.5555
+        ],
+        "contractor_config": [
+          0.29713,
+          0.35396
+        ]
+      }
+    },
+    {
+      "t_plus_min": 171,
+      "timestamp_utc": "2026-03-29T16:51:00.000Z",
+      "prices": {
+        "notam_software": 0.525251,
+        "contractor_config": 0.325407,
+        "telecom_hardware": 0.089865,
+        "cyber_intrusion": 0.018884,
+        "unattributed_other": 0.040593
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49507,
+          0.55585
+        ],
+        "contractor_config": [
+          0.2977,
+          0.35597
+        ]
+      }
+    },
+    {
+      "t_plus_min": 172,
+      "timestamp_utc": "2026-03-29T16:52:00.000Z",
+      "prices": {
+        "notam_software": 0.524752,
+        "contractor_config": 0.326157,
+        "telecom_hardware": 0.089703,
+        "cyber_intrusion": 0.018879,
+        "unattributed_other": 0.040509
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49238,
+          0.55766
+        ],
+        "contractor_config": [
+          0.29928,
+          0.35796
+        ]
+      }
+    },
+    {
+      "t_plus_min": 173,
+      "timestamp_utc": "2026-03-29T16:53:00.000Z",
+      "prices": {
+        "notam_software": 0.524559,
+        "contractor_config": 0.326651,
+        "telecom_hardware": 0.089576,
+        "cyber_intrusion": 0.018816,
+        "unattributed_other": 0.040399
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49254,
+          0.5558
+        ],
+        "contractor_config": [
+          0.29997,
+          0.35693
+        ]
+      }
+    },
+    {
+      "t_plus_min": 174,
+      "timestamp_utc": "2026-03-29T16:54:00.000Z",
+      "prices": {
+        "notam_software": 0.525043,
+        "contractor_config": 0.326309,
+        "telecom_hardware": 0.089509,
+        "cyber_intrusion": 0.018852,
+        "unattributed_other": 0.040287
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49501,
+          0.55663
+        ],
+        "contractor_config": [
+          0.29951,
+          0.35748
+        ]
+      }
+    },
+    {
+      "t_plus_min": 175,
+      "timestamp_utc": "2026-03-29T16:55:00.000Z",
+      "prices": {
+        "notam_software": 0.524814,
+        "contractor_config": 0.326738,
+        "telecom_hardware": 0.089425,
+        "cyber_intrusion": 0.018789,
+        "unattributed_other": 0.040234
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49408,
+          0.55706
+        ],
+        "contractor_config": [
+          0.29978,
+          0.35697
+        ]
+      }
+    },
+    {
+      "t_plus_min": 176,
+      "timestamp_utc": "2026-03-29T16:56:00.000Z",
+      "prices": {
+        "notam_software": 0.52485,
+        "contractor_config": 0.327116,
+        "telecom_hardware": 0.089142,
+        "cyber_intrusion": 0.018769,
+        "unattributed_other": 0.040123
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49593,
+          0.55571
+        ],
+        "contractor_config": [
+          0.30062,
+          0.35639
+        ]
+      }
+    },
+    {
+      "t_plus_min": 177,
+      "timestamp_utc": "2026-03-29T16:57:00.000Z",
+      "prices": {
+        "notam_software": 0.525369,
+        "contractor_config": 0.326728,
+        "telecom_hardware": 0.089059,
+        "cyber_intrusion": 0.018742,
+        "unattributed_other": 0.040102
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49562,
+          0.5557
+        ],
+        "contractor_config": [
+          0.29919,
+          0.35572
+        ]
+      }
+    },
+    {
+      "t_plus_min": 178,
+      "timestamp_utc": "2026-03-29T16:58:00.000Z",
+      "prices": {
+        "notam_software": 0.525503,
+        "contractor_config": 0.326633,
+        "telecom_hardware": 0.088998,
+        "cyber_intrusion": 0.018733,
+        "unattributed_other": 0.040132
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49401,
+          0.55633
+        ],
+        "contractor_config": [
+          0.2998,
+          0.35754
+        ]
+      }
+    },
+    {
+      "t_plus_min": 179,
+      "timestamp_utc": "2026-03-29T16:59:00.000Z",
+      "prices": {
+        "notam_software": 0.525652,
+        "contractor_config": 0.326798,
+        "telecom_hardware": 0.088771,
+        "cyber_intrusion": 0.018652,
+        "unattributed_other": 0.040127
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49139,
+          0.55807
+        ],
+        "contractor_config": [
+          0.30025,
+          0.35837
+        ]
+      }
+    },
+    {
+      "t_plus_min": 180,
+      "timestamp_utc": "2026-03-29T17:00:00.000Z",
+      "prices": {
+        "notam_software": 0.526372,
+        "contractor_config": 0.326299,
+        "telecom_hardware": 0.088632,
+        "cyber_intrusion": 0.018662,
+        "unattributed_other": 0.040035
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49318,
+          0.55796
+        ],
+        "contractor_config": [
+          0.30022,
+          0.35708
+        ]
+      }
+    },
+    {
+      "t_plus_min": 181,
+      "timestamp_utc": "2026-03-29T17:01:00.000Z",
+      "prices": {
+        "notam_software": 0.526789,
+        "contractor_config": 0.325972,
+        "telecom_hardware": 0.088635,
+        "cyber_intrusion": 0.018659,
+        "unattributed_other": 0.039945
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49507,
+          0.56003
+        ],
+        "contractor_config": [
+          0.29869,
+          0.35719
+        ]
+      }
+    },
+    {
+      "t_plus_min": 182,
+      "timestamp_utc": "2026-03-29T17:02:00.000Z",
+      "prices": {
+        "notam_software": 0.527515,
+        "contractor_config": 0.325752,
+        "telecom_hardware": 0.08829,
+        "cyber_intrusion": 0.018587,
+        "unattributed_other": 0.039857
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49648,
+          0.56126
+        ],
+        "contractor_config": [
+          0.29781,
+          0.35658
+        ]
+      }
+    },
+    {
+      "t_plus_min": 183,
+      "timestamp_utc": "2026-03-29T17:03:00.000Z",
+      "prices": {
+        "notam_software": 0.528041,
+        "contractor_config": 0.32526,
+        "telecom_hardware": 0.088218,
+        "cyber_intrusion": 0.01861,
+        "unattributed_other": 0.039871
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49691,
+          0.56215
+        ],
+        "contractor_config": [
+          0.29673,
+          0.35543
+        ]
+      }
+    },
+    {
+      "t_plus_min": 184,
+      "timestamp_utc": "2026-03-29T17:04:00.000Z",
+      "prices": {
+        "notam_software": 0.52802,
+        "contractor_config": 0.325509,
+        "telecom_hardware": 0.088059,
+        "cyber_intrusion": 0.018559,
+        "unattributed_other": 0.039853
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49647,
+          0.56393
+        ],
+        "contractor_config": [
+          0.29763,
+          0.35598
+        ]
+      }
+    },
+    {
+      "t_plus_min": 185,
+      "timestamp_utc": "2026-03-29T17:05:00.000Z",
+      "prices": {
+        "notam_software": 0.528345,
+        "contractor_config": 0.325552,
+        "telecom_hardware": 0.087833,
+        "cyber_intrusion": 0.018501,
+        "unattributed_other": 0.03977
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49641,
+          0.55826
+        ],
+        "contractor_config": [
+          0.29558,
+          0.35586
+        ]
+      }
+    },
+    {
+      "t_plus_min": 186,
+      "timestamp_utc": "2026-03-29T17:06:00.000Z",
+      "prices": {
+        "notam_software": 0.528303,
+        "contractor_config": 0.325623,
+        "telecom_hardware": 0.087793,
+        "cyber_intrusion": 0.018475,
+        "unattributed_other": 0.039806
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49589,
+          0.55824
+        ],
+        "contractor_config": [
+          0.29675,
+          0.35641
+        ]
+      }
+    },
+    {
+      "t_plus_min": 187,
+      "timestamp_utc": "2026-03-29T17:07:00.000Z",
+      "prices": {
+        "notam_software": 0.527735,
+        "contractor_config": 0.326333,
+        "telecom_hardware": 0.087715,
+        "cyber_intrusion": 0.01847,
+        "unattributed_other": 0.039747
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49671,
+          0.5606
+        ],
+        "contractor_config": [
+          0.29978,
+          0.35643
+        ]
+      }
+    },
+    {
+      "t_plus_min": 188,
+      "timestamp_utc": "2026-03-29T17:08:00.000Z",
+      "prices": {
+        "notam_software": 0.528021,
+        "contractor_config": 0.325972,
+        "telecom_hardware": 0.087751,
+        "cyber_intrusion": 0.018514,
+        "unattributed_other": 0.039742
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49704,
+          0.5603
+        ],
+        "contractor_config": [
+          0.29653,
+          0.35741
+        ]
+      }
+    },
+    {
+      "t_plus_min": 189,
+      "timestamp_utc": "2026-03-29T17:09:00.000Z",
+      "prices": {
+        "notam_software": 0.527602,
+        "contractor_config": 0.326539,
+        "telecom_hardware": 0.087709,
+        "cyber_intrusion": 0.018467,
+        "unattributed_other": 0.039683
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4947,
+          0.55914
+        ],
+        "contractor_config": [
+          0.29864,
+          0.35723
+        ]
+      }
+    },
+    {
+      "t_plus_min": 190,
+      "timestamp_utc": "2026-03-29T17:10:00.000Z",
+      "prices": {
+        "notam_software": 0.527905,
+        "contractor_config": 0.326259,
+        "telecom_hardware": 0.087671,
+        "cyber_intrusion": 0.018455,
+        "unattributed_other": 0.039711
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49674,
+          0.55844
+        ],
+        "contractor_config": [
+          0.29878,
+          0.35744
+        ]
+      }
+    },
+    {
+      "t_plus_min": 191,
+      "timestamp_utc": "2026-03-29T17:11:00.000Z",
+      "prices": {
+        "notam_software": 0.528669,
+        "contractor_config": 0.325764,
+        "telecom_hardware": 0.087475,
+        "cyber_intrusion": 0.018457,
+        "unattributed_other": 0.039636
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49834,
+          0.55921
+        ],
+        "contractor_config": [
+          0.29646,
+          0.35538
+        ]
+      }
+    },
+    {
+      "t_plus_min": 192,
+      "timestamp_utc": "2026-03-29T17:12:00.000Z",
+      "prices": {
+        "notam_software": 0.529082,
+        "contractor_config": 0.325315,
+        "telecom_hardware": 0.087526,
+        "cyber_intrusion": 0.018485,
+        "unattributed_other": 0.039591
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49893,
+          0.56238
+        ],
+        "contractor_config": [
+          0.29209,
+          0.35442
+        ]
+      }
+    },
+    {
+      "t_plus_min": 193,
+      "timestamp_utc": "2026-03-29T17:13:00.000Z",
+      "prices": {
+        "notam_software": 0.529928,
+        "contractor_config": 0.324496,
+        "telecom_hardware": 0.087503,
+        "cyber_intrusion": 0.018518,
+        "unattributed_other": 0.039554
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49769,
+          0.5607
+        ],
+        "contractor_config": [
+          0.29277,
+          0.35469
+        ]
+      }
+    },
+    {
+      "t_plus_min": 194,
+      "timestamp_utc": "2026-03-29T17:14:00.000Z",
+      "prices": {
+        "notam_software": 0.529787,
+        "contractor_config": 0.324826,
+        "telecom_hardware": 0.08734,
+        "cyber_intrusion": 0.018498,
+        "unattributed_other": 0.03955
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49844,
+          0.56455
+        ],
+        "contractor_config": [
+          0.29298,
+          0.35359
+        ]
+      }
+    },
+    {
+      "t_plus_min": 195,
+      "timestamp_utc": "2026-03-29T17:15:00.000Z",
+      "prices": {
+        "notam_software": 0.530473,
+        "contractor_config": 0.324368,
+        "telecom_hardware": 0.0872,
+        "cyber_intrusion": 0.018414,
+        "unattributed_other": 0.039544
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4969,
+          0.56463
+        ],
+        "contractor_config": [
+          0.29185,
+          0.35392
+        ]
+      }
+    },
+    {
+      "t_plus_min": 196,
+      "timestamp_utc": "2026-03-29T17:16:00.000Z",
+      "prices": {
+        "notam_software": 0.530574,
+        "contractor_config": 0.324231,
+        "telecom_hardware": 0.087302,
+        "cyber_intrusion": 0.018417,
+        "unattributed_other": 0.039476
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49831,
+          0.56014
+        ],
+        "contractor_config": [
+          0.29215,
+          0.35286
+        ]
+      }
+    },
+    {
+      "t_plus_min": 197,
+      "timestamp_utc": "2026-03-29T17:17:00.000Z",
+      "prices": {
+        "notam_software": 0.530801,
+        "contractor_config": 0.323987,
+        "telecom_hardware": 0.087343,
+        "cyber_intrusion": 0.018402,
+        "unattributed_other": 0.039467
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4987,
+          0.56212
+        ],
+        "contractor_config": [
+          0.29134,
+          0.35477
+        ]
+      }
+    },
+    {
+      "t_plus_min": 198,
+      "timestamp_utc": "2026-03-29T17:18:00.000Z",
+      "prices": {
+        "notam_software": 0.530411,
+        "contractor_config": 0.324512,
+        "telecom_hardware": 0.087214,
+        "cyber_intrusion": 0.018369,
+        "unattributed_other": 0.039494
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49581,
+          0.56463
+        ],
+        "contractor_config": [
+          0.29079,
+          0.35483
+        ]
+      }
+    },
+    {
+      "t_plus_min": 199,
+      "timestamp_utc": "2026-03-29T17:19:00.000Z",
+      "prices": {
+        "notam_software": 0.530737,
+        "contractor_config": 0.324399,
+        "telecom_hardware": 0.087107,
+        "cyber_intrusion": 0.018333,
+        "unattributed_other": 0.039424
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49863,
+          0.56255
+        ],
+        "contractor_config": [
+          0.29096,
+          0.35396
+        ]
+      }
+    },
+    {
+      "t_plus_min": 200,
+      "timestamp_utc": "2026-03-29T17:20:00.000Z",
+      "prices": {
+        "notam_software": 0.531527,
+        "contractor_config": 0.323723,
+        "telecom_hardware": 0.08706,
+        "cyber_intrusion": 0.018272,
+        "unattributed_other": 0.039418
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4992,
+          0.56235
+        ],
+        "contractor_config": [
+          0.29285,
+          0.35459
+        ]
+      }
+    },
+    {
+      "t_plus_min": 201,
+      "timestamp_utc": "2026-03-29T17:21:00.000Z",
+      "prices": {
+        "notam_software": 0.531644,
+        "contractor_config": 0.323859,
+        "telecom_hardware": 0.086932,
+        "cyber_intrusion": 0.01824,
+        "unattributed_other": 0.039325
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49778,
+          0.56143
+        ],
+        "contractor_config": [
+          0.29246,
+          0.35458
+        ]
+      }
+    },
+    {
+      "t_plus_min": 202,
+      "timestamp_utc": "2026-03-29T17:22:00.000Z",
+      "prices": {
+        "notam_software": 0.531412,
+        "contractor_config": 0.323955,
+        "telecom_hardware": 0.08707,
+        "cyber_intrusion": 0.018222,
+        "unattributed_other": 0.039341
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49807,
+          0.56237
+        ],
+        "contractor_config": [
+          0.2933,
+          0.354
+        ]
+      }
+    },
+    {
+      "t_plus_min": 203,
+      "timestamp_utc": "2026-03-29T17:23:00.000Z",
+      "prices": {
+        "notam_software": 0.531295,
+        "contractor_config": 0.324405,
+        "telecom_hardware": 0.086925,
+        "cyber_intrusion": 0.018165,
+        "unattributed_other": 0.039211
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49652,
+          0.56206
+        ],
+        "contractor_config": [
+          0.29607,
+          0.35505
+        ]
+      }
+    },
+    {
+      "t_plus_min": 204,
+      "timestamp_utc": "2026-03-29T17:24:00.000Z",
+      "prices": {
+        "notam_software": 0.531179,
+        "contractor_config": 0.324644,
+        "telecom_hardware": 0.086852,
+        "cyber_intrusion": 0.018153,
+        "unattributed_other": 0.039172
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49505,
+          0.56201
+        ],
+        "contractor_config": [
+          0.29747,
+          0.35558
+        ]
+      }
+    },
+    {
+      "t_plus_min": 205,
+      "timestamp_utc": "2026-03-29T17:25:00.000Z",
+      "prices": {
+        "notam_software": 0.530313,
+        "contractor_config": 0.325601,
+        "telecom_hardware": 0.086783,
+        "cyber_intrusion": 0.018083,
+        "unattributed_other": 0.03922
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49702,
+          0.56024
+        ],
+        "contractor_config": [
+          0.29803,
+          0.35795
+        ]
+      }
+    },
+    {
+      "t_plus_min": 206,
+      "timestamp_utc": "2026-03-29T17:26:00.000Z",
+      "prices": {
+        "notam_software": 0.529956,
+        "contractor_config": 0.325965,
+        "telecom_hardware": 0.086762,
+        "cyber_intrusion": 0.018114,
+        "unattributed_other": 0.039204
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49714,
+          0.56057
+        ],
+        "contractor_config": [
+          0.29636,
+          0.35919
+        ]
+      }
+    },
+    {
+      "t_plus_min": 207,
+      "timestamp_utc": "2026-03-29T17:27:00.000Z",
+      "prices": {
+        "notam_software": 0.530361,
+        "contractor_config": 0.325759,
+        "telecom_hardware": 0.086597,
+        "cyber_intrusion": 0.018143,
+        "unattributed_other": 0.03914
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49648,
+          0.56201
+        ],
+        "contractor_config": [
+          0.29663,
+          0.35892
+        ]
+      }
+    },
+    {
+      "t_plus_min": 208,
+      "timestamp_utc": "2026-03-29T17:28:00.000Z",
+      "prices": {
+        "notam_software": 0.529752,
+        "contractor_config": 0.326517,
+        "telecom_hardware": 0.086534,
+        "cyber_intrusion": 0.018096,
+        "unattributed_other": 0.039101
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49474,
+          0.56076
+        ],
+        "contractor_config": [
+          0.29708,
+          0.36178
+        ]
+      }
+    },
+    {
+      "t_plus_min": 209,
+      "timestamp_utc": "2026-03-29T17:29:00.000Z",
+      "prices": {
+        "notam_software": 0.528995,
+        "contractor_config": 0.327421,
+        "telecom_hardware": 0.086462,
+        "cyber_intrusion": 0.018057,
+        "unattributed_other": 0.039066
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49433,
+          0.56187
+        ],
+        "contractor_config": [
+          0.29651,
+          0.36212
+        ]
+      }
+    },
+    {
+      "t_plus_min": 210,
+      "timestamp_utc": "2026-03-29T17:30:00.000Z",
+      "prices": {
+        "notam_software": 0.529746,
+        "contractor_config": 0.330092,
+        "telecom_hardware": 0.084316,
+        "cyber_intrusion": 0.017709,
+        "unattributed_other": 0.038137
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49005,
+          0.56322
+        ],
+        "contractor_config": [
+          0.29818,
+          0.36492
+        ]
+      }
+    },
+    {
+      "t_plus_min": 211,
+      "timestamp_utc": "2026-03-29T17:31:00.000Z",
+      "prices": {
+        "notam_software": 0.530401,
+        "contractor_config": 0.332109,
+        "telecom_hardware": 0.082706,
+        "cyber_intrusion": 0.017364,
+        "unattributed_other": 0.037419
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49551,
+          0.56332
+        ],
+        "contractor_config": [
+          0.29939,
+          0.36462
+        ]
+      }
+    },
+    {
+      "t_plus_min": 212,
+      "timestamp_utc": "2026-03-29T17:32:00.000Z",
+      "prices": {
+        "notam_software": 0.530728,
+        "contractor_config": 0.333992,
+        "telecom_hardware": 0.081452,
+        "cyber_intrusion": 0.017089,
+        "unattributed_other": 0.036738
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49498,
+          0.56358
+        ],
+        "contractor_config": [
+          0.30223,
+          0.3654
+        ]
+      }
+    },
+    {
+      "t_plus_min": 213,
+      "timestamp_utc": "2026-03-29T17:33:00.000Z",
+      "prices": {
+        "notam_software": 0.530424,
+        "contractor_config": 0.335849,
+        "telecom_hardware": 0.080519,
+        "cyber_intrusion": 0.016887,
+        "unattributed_other": 0.03632
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49618,
+          0.5646
+        ],
+        "contractor_config": [
+          0.30623,
+          0.36412
+        ]
+      }
+    },
+    {
+      "t_plus_min": 214,
+      "timestamp_utc": "2026-03-29T17:34:00.000Z",
+      "prices": {
+        "notam_software": 0.530578,
+        "contractor_config": 0.337098,
+        "telecom_hardware": 0.079669,
+        "cyber_intrusion": 0.01671,
+        "unattributed_other": 0.035945
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49667,
+          0.56682
+        ],
+        "contractor_config": [
+          0.30687,
+          0.3665
+        ]
+      }
+    },
+    {
+      "t_plus_min": 215,
+      "timestamp_utc": "2026-03-29T17:35:00.000Z",
+      "prices": {
+        "notam_software": 0.530799,
+        "contractor_config": 0.337951,
+        "telecom_hardware": 0.078925,
+        "cyber_intrusion": 0.016623,
+        "unattributed_other": 0.035702
+      },
+      "ci_80": {
+        "notam_software": [
+          0.4976,
+          0.56545
+        ],
+        "contractor_config": [
+          0.30819,
+          0.36563
+        ]
+      }
+    },
+    {
+      "t_plus_min": 216,
+      "timestamp_utc": "2026-03-29T17:36:00.000Z",
+      "prices": {
+        "notam_software": 0.53093,
+        "contractor_config": 0.338783,
+        "telecom_hardware": 0.078385,
+        "cyber_intrusion": 0.016469,
+        "unattributed_other": 0.035433
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49872,
+          0.56268
+        ],
+        "contractor_config": [
+          0.31173,
+          0.36631
+        ]
+      }
+    },
+    {
+      "t_plus_min": 217,
+      "timestamp_utc": "2026-03-29T17:37:00.000Z",
+      "prices": {
+        "notam_software": 0.530761,
+        "contractor_config": 0.33965,
+        "telecom_hardware": 0.077921,
+        "cyber_intrusion": 0.016413,
+        "unattributed_other": 0.035255
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49477,
+          0.56387
+        ],
+        "contractor_config": [
+          0.31109,
+          0.36796
+        ]
+      }
+    },
+    {
+      "t_plus_min": 218,
+      "timestamp_utc": "2026-03-29T17:38:00.000Z",
+      "prices": {
+        "notam_software": 0.531183,
+        "contractor_config": 0.339883,
+        "telecom_hardware": 0.077522,
+        "cyber_intrusion": 0.016295,
+        "unattributed_other": 0.035117
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49668,
+          0.5669
+        ],
+        "contractor_config": [
+          0.30905,
+          0.36945
+        ]
+      }
+    },
+    {
+      "t_plus_min": 219,
+      "timestamp_utc": "2026-03-29T17:39:00.000Z",
+      "prices": {
+        "notam_software": 0.531021,
+        "contractor_config": 0.340392,
+        "telecom_hardware": 0.077319,
+        "cyber_intrusion": 0.016273,
+        "unattributed_other": 0.034995
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49558,
+          0.56791
+        ],
+        "contractor_config": [
+          0.30888,
+          0.37448
+        ]
+      }
+    },
+    {
+      "t_plus_min": 220,
+      "timestamp_utc": "2026-03-29T17:40:00.000Z",
+      "prices": {
+        "notam_software": 0.531376,
+        "contractor_config": 0.340878,
+        "telecom_hardware": 0.07683,
+        "cyber_intrusion": 0.016137,
+        "unattributed_other": 0.034779
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49718,
+          0.56768
+        ],
+        "contractor_config": [
+          0.30956,
+          0.3756
+        ]
+      }
+    },
+    {
+      "t_plus_min": 221,
+      "timestamp_utc": "2026-03-29T17:41:00.000Z",
+      "prices": {
+        "notam_software": 0.530289,
+        "contractor_config": 0.342052,
+        "telecom_hardware": 0.076729,
+        "cyber_intrusion": 0.016179,
+        "unattributed_other": 0.03475
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49533,
+          0.56374
+        ],
+        "contractor_config": [
+          0.31213,
+          0.37822
+        ]
+      }
+    },
+    {
+      "t_plus_min": 222,
+      "timestamp_utc": "2026-03-29T17:42:00.000Z",
+      "prices": {
+        "notam_software": 0.530748,
+        "contractor_config": 0.342038,
+        "telecom_hardware": 0.076424,
+        "cyber_intrusion": 0.016155,
+        "unattributed_other": 0.034636
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49467,
+          0.56392
+        ],
+        "contractor_config": [
+          0.31193,
+          0.37691
+        ]
+      }
+    },
+    {
+      "t_plus_min": 223,
+      "timestamp_utc": "2026-03-29T17:43:00.000Z",
+      "prices": {
+        "notam_software": 0.530633,
+        "contractor_config": 0.342585,
+        "telecom_hardware": 0.076151,
+        "cyber_intrusion": 0.016098,
+        "unattributed_other": 0.034533
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49387,
+          0.5647
+        ],
+        "contractor_config": [
+          0.31193,
+          0.37326
+        ]
+      }
+    },
+    {
+      "t_plus_min": 224,
+      "timestamp_utc": "2026-03-29T17:44:00.000Z",
+      "prices": {
+        "notam_software": 0.530308,
+        "contractor_config": 0.342944,
+        "telecom_hardware": 0.076199,
+        "cyber_intrusion": 0.0161,
+        "unattributed_other": 0.03445
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49596,
+          0.56337
+        ],
+        "contractor_config": [
+          0.31422,
+          0.37481
+        ]
+      }
+    },
+    {
+      "t_plus_min": 225,
+      "timestamp_utc": "2026-03-29T17:45:00.000Z",
+      "prices": {
+        "notam_software": 0.530947,
+        "contractor_config": 0.342442,
+        "telecom_hardware": 0.076106,
+        "cyber_intrusion": 0.016062,
+        "unattributed_other": 0.034443
+      },
+      "ci_80": {
+        "notam_software": [
+          0.497,
+          0.56525
+        ],
+        "contractor_config": [
+          0.3123,
+          0.37492
+        ]
+      }
+    },
+    {
+      "t_plus_min": 226,
+      "timestamp_utc": "2026-03-29T17:46:00.000Z",
+      "prices": {
+        "notam_software": 0.530583,
+        "contractor_config": 0.343113,
+        "telecom_hardware": 0.075922,
+        "cyber_intrusion": 0.016012,
+        "unattributed_other": 0.03437
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49638,
+          0.56623
+        ],
+        "contractor_config": [
+          0.312,
+          0.37559
+        ]
+      }
+    },
+    {
+      "t_plus_min": 227,
+      "timestamp_utc": "2026-03-29T17:47:00.000Z",
+      "prices": {
+        "notam_software": 0.530862,
+        "contractor_config": 0.343011,
+        "telecom_hardware": 0.075722,
+        "cyber_intrusion": 0.016034,
+        "unattributed_other": 0.03437
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49769,
+          0.56907
+        ],
+        "contractor_config": [
+          0.3105,
+          0.37395
+        ]
+      }
+    },
+    {
+      "t_plus_min": 228,
+      "timestamp_utc": "2026-03-29T17:48:00.000Z",
+      "prices": {
+        "notam_software": 0.530862,
+        "contractor_config": 0.343225,
+        "telecom_hardware": 0.07551,
+        "cyber_intrusion": 0.016027,
+        "unattributed_other": 0.034376
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49812,
+          0.56676
+        ],
+        "contractor_config": [
+          0.31142,
+          0.37636
+        ]
+      }
+    },
+    {
+      "t_plus_min": 229,
+      "timestamp_utc": "2026-03-29T17:49:00.000Z",
+      "prices": {
+        "notam_software": 0.530738,
+        "contractor_config": 0.34341,
+        "telecom_hardware": 0.075544,
+        "cyber_intrusion": 0.01597,
+        "unattributed_other": 0.034338
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49774,
+          0.56641
+        ],
+        "contractor_config": [
+          0.31256,
+          0.37375
+        ]
+      }
+    },
+    {
+      "t_plus_min": 230,
+      "timestamp_utc": "2026-03-29T17:50:00.000Z",
+      "prices": {
+        "notam_software": 0.530723,
+        "contractor_config": 0.34341,
+        "telecom_hardware": 0.07561,
+        "cyber_intrusion": 0.015951,
+        "unattributed_other": 0.034306
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49697,
+          0.56693
+        ],
+        "contractor_config": [
+          0.31236,
+          0.37477
+        ]
+      }
+    },
+    {
+      "t_plus_min": 231,
+      "timestamp_utc": "2026-03-29T17:51:00.000Z",
+      "prices": {
+        "notam_software": 0.53012,
+        "contractor_config": 0.344154,
+        "telecom_hardware": 0.075475,
+        "cyber_intrusion": 0.01595,
+        "unattributed_other": 0.034301
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49601,
+          0.5674
+        ],
+        "contractor_config": [
+          0.31227,
+          0.37619
+        ]
+      }
+    },
+    {
+      "t_plus_min": 232,
+      "timestamp_utc": "2026-03-29T17:52:00.000Z",
+      "prices": {
+        "notam_software": 0.530239,
+        "contractor_config": 0.34427,
+        "telecom_hardware": 0.075344,
+        "cyber_intrusion": 0.015945,
+        "unattributed_other": 0.034202
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49749,
+          0.567
+        ],
+        "contractor_config": [
+          0.31176,
+          0.37342
+        ]
+      }
+    },
+    {
+      "t_plus_min": 233,
+      "timestamp_utc": "2026-03-29T17:53:00.000Z",
+      "prices": {
+        "notam_software": 0.530472,
+        "contractor_config": 0.344377,
+        "telecom_hardware": 0.075106,
+        "cyber_intrusion": 0.01589,
+        "unattributed_other": 0.034154
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49816,
+          0.56466
+        ],
+        "contractor_config": [
+          0.31161,
+          0.37524
+        ]
+      }
+    },
+    {
+      "t_plus_min": 234,
+      "timestamp_utc": "2026-03-29T17:54:00.000Z",
+      "prices": {
+        "notam_software": 0.530546,
+        "contractor_config": 0.344402,
+        "telecom_hardware": 0.075073,
+        "cyber_intrusion": 0.015863,
+        "unattributed_other": 0.034116
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49931,
+          0.56461
+        ],
+        "contractor_config": [
+          0.31349,
+          0.37661
+        ]
+      }
+    },
+    {
+      "t_plus_min": 235,
+      "timestamp_utc": "2026-03-29T17:55:00.000Z",
+      "prices": {
+        "notam_software": 0.530775,
+        "contractor_config": 0.3441,
+        "telecom_hardware": 0.075095,
+        "cyber_intrusion": 0.015925,
+        "unattributed_other": 0.034104
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49806,
+          0.567
+        ],
+        "contractor_config": [
+          0.31403,
+          0.37161
+        ]
+      }
+    },
+    {
+      "t_plus_min": 236,
+      "timestamp_utc": "2026-03-29T17:56:00.000Z",
+      "prices": {
+        "notam_software": 0.530578,
+        "contractor_config": 0.344447,
+        "telecom_hardware": 0.075025,
+        "cyber_intrusion": 0.015885,
+        "unattributed_other": 0.034065
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49919,
+          0.56561
+        ],
+        "contractor_config": [
+          0.3135,
+          0.37272
+        ]
+      }
+    },
+    {
+      "t_plus_min": 237,
+      "timestamp_utc": "2026-03-29T17:57:00.000Z",
+      "prices": {
+        "notam_software": 0.530652,
+        "contractor_config": 0.344693,
+        "telecom_hardware": 0.074822,
+        "cyber_intrusion": 0.015864,
+        "unattributed_other": 0.033969
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49967,
+          0.56458
+        ],
+        "contractor_config": [
+          0.31272,
+          0.37641
+        ]
+      }
+    },
+    {
+      "t_plus_min": 238,
+      "timestamp_utc": "2026-03-29T17:58:00.000Z",
+      "prices": {
+        "notam_software": 0.530278,
+        "contractor_config": 0.345115,
+        "telecom_hardware": 0.074813,
+        "cyber_intrusion": 0.015825,
+        "unattributed_other": 0.033969
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49826,
+          0.56649
+        ],
+        "contractor_config": [
+          0.31136,
+          0.37549
+        ]
+      }
+    },
+    {
+      "t_plus_min": 239,
+      "timestamp_utc": "2026-03-29T17:59:00.000Z",
+      "prices": {
+        "notam_software": 0.530465,
+        "contractor_config": 0.345133,
+        "telecom_hardware": 0.074698,
+        "cyber_intrusion": 0.015731,
+        "unattributed_other": 0.033973
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49789,
+          0.56853
+        ],
+        "contractor_config": [
+          0.31331,
+          0.37645
+        ]
+      }
+    },
+    {
+      "t_plus_min": 240,
+      "timestamp_utc": "2026-03-29T18:00:00.000Z",
+      "prices": {
+        "notam_software": 0.53017,
+        "contractor_config": 0.345666,
+        "telecom_hardware": 0.074502,
+        "cyber_intrusion": 0.015737,
+        "unattributed_other": 0.033926
+      },
+      "ci_80": {
+        "notam_software": [
+          0.49673,
+          0.56579
+        ],
+        "contractor_config": [
+          0.31212,
+          0.37723
+        ]
+      }
+    }
+  ]
+}
