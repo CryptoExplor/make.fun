@@ -5,3 +5,8 @@ claim-instructions.txt
 CLAIM_INSTRUCTIONS.md
 *keypair*.json
 transcripts.tar.gz
+
+# Local test artifacts & kits
+*-kit/
+kit-*.tar.gz
+
